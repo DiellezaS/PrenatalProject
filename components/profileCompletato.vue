@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#F7F7F7] px-7 py-10 text-center rounded-2xl grid grid-col gap-10">
+    <div class="bg-[#F7F7F7] px-7 py-4 text-center rounded-2xl grid grid-col gap-20">
         <div>
             <h1 class="text-2xl font-semibold text-[#E72B6F] tracking-tight">Profilo Completato al</h1>
             <div id="app">
@@ -49,7 +49,7 @@
                 </template>
             </Carousel>
         </div>
-        <a href="#" class="border border-[#E72B6F] rounded-3xl text-xl text-[#E72B6F] p-2 w-4/5 mx-auto mt-10">COMPLETA IL PROFILO</a>
+        <a href="#" class="border border-[#E72B6F] rounded-full text-xl text-[#E72B6F] self-center p-2 w-4/5 mx-auto mt-10">COMPLETA IL PROFILO</a>
     </div>
 </template>
 
@@ -73,7 +73,7 @@ export default defineComponent({
                 'Per ricevere le nostre notizie via SMS e/o mesasaggi WhatsApp inserisci il numero di telefono',
             ],
             activeSlide: 0,
-            size: 150,
+            size: 220,
       percentage: 65,
       backgroundStrokeWidth: 6,
       foregroundStrokeWidth: 7

@@ -10,11 +10,11 @@
                 <img src="assets\index.jpg" alt="image description" class="rounded-3xl">
 
 
-                <figcaption class="absolute px-4 text-lg text-white  w-1/3 right-40 bottom-40 space-y-4">
+                <figcaption class="absolute px-4 text-lg text-white  w-1/3 right-40 bottom-40 space-y-3">
                     <h1 class="text-4xl font-bold font-sans subpixel-antialiased w-2/3">Entra nel club di Prenatal</h1>
                     <p>Registrati gratuitamente per un mondo di promozioni dedicate, o acquista una VIP Card per
                         accedere a tutti i vantaggi aggiuntivi.</p>
-                    <UButton class="bg-[#E72B6F] mx-4 p-3" :ui="{ rounded: 'rounded-full' }">ACCEDI O REGISTRATI
+                    <UButton class="bg-[#E72B6F] mx-4 p-3 px-6 text-xl" :ui="{ rounded: 'rounded-full' }">ACCEDI O REGISTRATI
                     </UButton>
 
                     <p class="text-white text-sm ">Hai perso la tua card?
