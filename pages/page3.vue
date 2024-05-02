@@ -10,7 +10,7 @@
                     <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5">La tua Fidelity Card</h1>
                     <div class=" flex flex-row gap-6">
                         <div class="">
-                            <img src="assets\vip_card.png" class="rounded-xl" alt="Prenatal Card">
+                            <img src="assets\vip_card.png" class="rounded-xl w-auto h-64" alt="Prenatal Card">
                             <h2 class="-translate-y-10 text-center font-bold text-lg">{{ cardNumber }}</h2>
                         </div>
                         <div class="flex flex-col gap-1 w-1/2">
@@ -40,8 +40,8 @@
                 </div>
                 <Dati/>
             </div>
-            <div class="grid grid-col gap-3 w-1/4">
-                <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
+            <div class="grid grid-col gap-5 w-1/4 ">
+                <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-10 pt-24">
                     <img src="assets\parental_skills.png" alt="Parental Skills"
                         class="absolute inset-0 w-full object-cover">
                     <div class="svg-container absolute top-0 left-0">
@@ -68,39 +68,37 @@
                         GRATIS</button>
                 </article>
                 <profileCompletato />
-                <div class="grid grid-col gap-7 px-9 py-10 rounded-3xl border border-gray-300">
-                    <h1 class="text-[#E82770] text-2xl font-semibold">Invita un amico</h1>
-                    <div>
-                        <p class="text-lg tracking-tight leading-5 ">Condividi i link con un tuo amico e ricevi uno
-                            sconto di 10 euro.
-                        </p>
-                        <a href="#" class="underline leading-3">Scopri di piú</a>
-                    </div>
-                    <div class="flex flex-row">
-                        <input type="text" :value="link" readonly
-                            class="border border-1 px-8 py-3 rounded-l-md font-light text-lg text-gray-300">
-
-                            <button @click="copyLink" class="bg-[#E82770] p-3 rounded-r-md"><svg class="h-6 w-6 text-white"
-                                width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
-                                fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" />
-                                <rect x="8" y="8" width="12" height="12" rx="2" />
-                                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="bg-[#E82770] text-white flex flex-row gap-2 rounded-3xl mt-8 py-3 px-6 w-35% mx-auto">
-                        <svg class="h-6 w-6 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="18" cy="5" r="3" />
-                            <circle cx="6" cy="12" r="3" />
-                            <circle cx="18" cy="19" r="3" />
-                            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
-                            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
-                        </svg>
-                        <button @click="shareLink" class="  text-xl mx-auto">CONDIVIDI</button>
-                    </div>
-                </div>
+                <div class="grid grid-col px-9 py-9 rounded-3xl border border-gray-300">
+          <h1 class="text-[#E82770] text-2xl font-semibold">Invita un amico</h1>
+          <div>
+            <p class="text-lg tracking-tight leading-5 -translate-y-3  ">Condividi i link con un tuo amico e ricevi uno sconto di 10
+              euro.</p>
+            <a href="#" class="underline leading-3 ">Scopri di piú</a>
+          </div>
+          <div class="flex flex-row">
+            <input type="text" :value="link" readonly
+              class="border border-1 px-8 py-3 rounded-l-md font-light text-lg text-gray-300">
+            <button @click="copyLink" class="bg-[#E82770] p-3 rounded-2xl rounded-l-none "><svg class="h-6 w-6 text-white" width="24"
+                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <rect x="8" y="8" width="12" height="12" rx="2" />
+                <path d="M16 8v-2a2 2 0 0 0 -2 -2h-8a2 2 0 0 0 -2 2v8a2 2 0 0 0 2 2h2" />
+              </svg>
+            </button>
+          </div>
+          <div class="bg-[#E82770] text-white flex flex-row  rounded-full mt-4 self-center px-8  py-3 w-35% mx-auto">
+            <svg class="h-6 w-6 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="18" cy="5" r="3" />
+              <circle cx="6" cy="12" r="3" />
+              <circle cx="18" cy="19" r="3" />
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+              <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+            </svg>
+            <button @click="shareLink" class="text-xl mx-auto self-center">CONDIVIDI</button>
+          </div>
+        </div>
             </div>
         </div>
         <Vantaggi class="ml-auto" />

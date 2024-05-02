@@ -3,36 +3,35 @@
   <Navbar />
 
   <div class="max-w-screen-2xl mx-auto flex flex-col mt-16">
-    <div class="flex flex-row mx-auto gap-7">
+    <div class="flex flex-row mx-auto gap-6">
       <div>
         <LaTuaCard />
       </div>
-      <div class=" flex flex-col gap-4 w-2/4">
-        <div class="bg-[#F9ECED] px-6 pt-5 pb-16 rounded-3xl">
-          <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5">La tua Card</h1>
-          <div class=" flex flex-row gap-6">
-            <div class="">
-              <img src="/assets/prenatal_card.png" class="rounded-xl" alt="Prenatal Card">
-              <h2 class="-translate-y-10 text-center font-bold text-lg">{{ cardNumber }}</h2>
-            </div>
-            <div>
-              <h2 class="text-[#E73B7A] text-lg tracking-tighter font-semibold">Numero Card:</h2>
-              <p class=" font-bold">{{ cardNumber }}</p>
-              <p class="flex text-lg gap-2 tracking-tighter">
-              <h2 class="text-[#E73B7A] font-semibold">Stato:</h2>Attiva</p>
-            </div>
-          </div>
+      <div class="flex flex-col gap-6 w-2/4">
+        <div class="bg-[#F9ECED] px-6 pt-5 pb-24 rounded-3xl">
+        <h1 class="text-[#E73B7A] text-2xl font-bold tracking-tighter py-5">La tua Card</h1>
+        <div class=" flex flex-row gap-6">
+          <div class="">
+          <img src="/assets/prenatal_card.png" class="rounded-3xl w-auto h-64" alt="Prenatal Card">
+          <h2 class="-translate-y-10 text-center font-semibold text-xl tracking-wider">{{ cardNumber }}</h2>
         </div>
+        <div>
+          <h2 class="text-[#E73B7A] text-lg tracking-tighter font-semibold">Numero Card:</h2>
+          <p class=" font-semibold text-xl tracking-wider">{{ cardNumber }}</p>
+          <p class="flex text-lg gap-2 tracking-tighter"><h2 class="text-[#E73B7A] font-semibold">Stato:</h2>Attiva</p>
+        </div>
+        </div>
+      </div>
         <Dati />
       </div>
 
-      <div class="grid grid-col gap-3 w-1/4">
-        <div class="grid grid-col gap-2 bg-[#EAF1FD] px-7 py-10 text-center rounded-2xl">
-          <h1 class="text-2xl font-bold text-[#E72B6F]">Passa a VIP Club
+      <div class="grid grid-col gap-7 w-1/4">
+        <div class="grid grid-col bg-[#EAF1FD] px-7 py-6 text-center rounded-2xl">
+          <h1 class="text-2xl font-bold  text-[#E72B6F]">Passa a VIP Club
           </h1>
           <h3 class="text-md tracking-tight mx-auto font-bold w-2/3">Scopri tutti i vantaggi che ti aspettano</h3>
           <Carousel :autoplay="8000" :wrap-around="true" :items-to-show="1" @after-change="updateActiveSlide"
-            v-model="activeSlide" class="mt-6">
+            v-model="activeSlide" >
             <Slide v-for="(quote, index) in quotes" :key="index">
               <div class="carousel-content bg-[white]" :class="{ 'active-quote': index === activeSlide }"
                 v-html="quote"></div>
@@ -43,21 +42,22 @@
             </template>
           </Carousel>
           <a href="#" type="button"
-            class="bg-[#E72B6F] mt-6 w-4/5 mx-auto text-xl text-white py-3 px-4 rounded-3xl">ACQUISTA VIP
+            class="bg-[#E72B6F] self-center  w-4/5 mx-auto mt-4 py-4 px-4 text-xl text-white rounded-full">ACQUISTA VIP
             CARD</a>
+        
         </div>
         <profileCompletato />
-        <div class="grid grid-col gap-7 px-9 py-10 rounded-3xl border border-gray-300">
+        <div class="grid grid-col px-9 pt-4 rounded-3xl border border-gray-300 gap-6">
           <h1 class="text-[#E82770] text-2xl font-semibold">Invita un amico</h1>
           <div>
-            <p class="text-lg tracking-tight leading-5 ">Condividi i link con un tuo amico e ricevi uno sconto di 10
+            <p class="text-lg tracking-tight leading-5 -translate-y-3  ">Condividi i link con un tuo amico e ricevi uno sconto di 10
               euro.</p>
-            <a href="#" class="underline leading-3">Scopri di piú</a>
+            <a href="#" class="underline leading-3 ">Scopri di piú</a>
           </div>
           <div class="flex flex-row">
             <input type="text" :value="link" readonly
               class="border border-1 px-8 py-3 rounded-l-md font-light text-lg text-gray-300">
-            <button @click="copyLink" class="bg-[#E82770] p-3 rounded-r-md"><svg class="h-6 w-6 text-white" width="24"
+            <button @click="copyLink" class="bg-[#E82770] p-3 rounded-2xl rounded-l-none "><svg class="h-6 w-6 text-white" width="24"
                 height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                 stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" />
@@ -66,7 +66,7 @@
               </svg>
             </button>
           </div>
-          <div class="bg-[#E82770] text-white flex flex-row gap-2 rounded-3xl mt-8 py-3 px-6 w-35% mx-auto">
+          <div class="bg-[#E82770] text-white flex flex-row  rounded-full mt-4 self-center px-8  py-3 w-35% mx-auto">
             <svg class="h-6 w-6 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round">
               <circle cx="18" cy="5" r="3" />
@@ -75,7 +75,7 @@
               <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
               <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
             </svg>
-            <button @click="shareLink" class="  text-xl mx-auto">CONDIVIDI</button>
+            <button @click="shareLink" class="text-xl mx-auto self-center">CONDIVIDI</button>
           </div>
         </div>
       </div>
