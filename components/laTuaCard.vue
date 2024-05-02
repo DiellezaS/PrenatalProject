@@ -1,13 +1,13 @@
 <template>
   <div class="w-1/4">
-    <h1 class="text-3xl font-normal text-[#E72B6F]">Benvenuto/a</h1>
-    <span class="text-3xl font-bold text-[#E72B6F]">Michela</span>
-    <div class="flex flex-col w-72 mt-6 table-border-collapse border-2 rounded-xl">
+    <h1 class="text-4xl font-normal text-[#E72B6F]">Benvenuto/a</h1>
+    <span class="text-4xl font-bold text-[#E72B6F]">Michela</span>
+    <div class="flex flex-col w-80 mt-10 table-border-collapse border-2 rounded-xl">
       <table>
         <tbody class="translate-x-9">
           <tr v-for="(tab, index) in tabs" :key="index" :class="{ 'rounded-t-lg': index === 0 }">
             <td
-              class="px-6 py-4 font-normal text-lg"
+              class="px-6 py-4 font-normal text-xl "
               :class="{ 'border-t': index !== 0, 'border-b': index !== tabs.length - 1 }"
             >
               <router-link :to="tab.url" :class="{ 'text-[#E72B6F] font-semibold': isActiveTab(tab.url) }">{{ tab.name }}</router-link>
