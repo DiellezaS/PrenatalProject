@@ -80,9 +80,6 @@
       
             </div>
    
-   
-            
-           
             <div class=" ">
                 <h1 class="text-[#E72B6F] text-4xl font-semibold my-16">La tua famiglia</h1>
        <div class="w-full h-64 bg-[#f7f7f7] flex flex-col justify-center items-center rounded-3xl">
@@ -242,38 +239,15 @@
 <div class="flex">
     <a href="#" type="button" class="text-center bg-[#E72B6F] mx-auto py-4 w-3/5 my-16 text-xl text-white rounded-full">SALVA LE MODIFICHE</a>
 </div>
-   
-
-
-
-       </div>
+      </div>
    </div>
            </div>
    
                </div>
-   
-               
-   
                <Footer></Footer>
    </template>
    
-   
-   
-   <!-- <style>
-   input[type="Date"]::-webkit-calendar-picker-indicator {
-       display: none;
-   } 
-   input[type="Date"]::before {
-       content: "\1F4C5";
-       position: absolute;
-       right: 10px;
-       top: 50%;
-       transform: translateY(-50%);
-       color: #e72b6f; 
-   }
-   
-   
-   </style> -->
+
    
    <style>
 .height{
