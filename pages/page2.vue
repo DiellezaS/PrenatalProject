@@ -41,7 +41,7 @@
               <Pagination />
             </template>
           </Carousel>
-          <a href="#" type="button"
+          <a href="/page3" type="button"
             class="bg-[#E72B6F] self-center  w-4/5 mx-auto mt-4 py-4 px-4 text-xl text-white rounded-full">ACQUISTA VIP
             CARD</a>
         

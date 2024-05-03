@@ -9,7 +9,7 @@
             <img alt="" class="vantaggi-image" src="https://storage.googleapis.com/prg-loyalty.appspot.com/media/102/img-logo---595x422px.jpg">
             <img src="https://storage.googleapis.com/prg-loyalty.appspot.com/media/93/CLINIQUE_IMMAGINE-ANTEPRIMA.png" class="vantaggi-image" alt="">
         </div>
-        <a href="#" class="mx-auto"><button class=" border border-[#E72B6F] text-[#E72B6F] rounded-3xl py-2 px-6 text-xl">SCOPRI DI PIÚ</button></a>
+        <a href="/page4" class="mx-auto"><button class=" border border-[#E72B6F] text-[#E72B6F] rounded-3xl py-2 px-6 text-xl">SCOPRI DI PIÚ</button></a>
     </div>
 </template>
 <style>

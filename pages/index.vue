@@ -14,7 +14,7 @@
                     <h1 class="text-4xl font-bold font-sans subpixel-antialiased w-2/3">Entra nel club di Prenatal</h1>
                     <p>Registrati gratuitamente per un mondo di promozioni dedicate, o acquista una VIP Card per
                         accedere a tutti i vantaggi aggiuntivi.</p>
-                    <UButton class="bg-[#E72B6F] mx-4 p-3 px-6 text-xl" :ui="{ rounded: 'rounded-full' }">ACCEDI O REGISTRATI
+                    <UButton class="bg-[#E72B6F] mx-4 p-3 px-6 text-xl  hover:bg-[#E72B6F]" :ui="{ rounded: 'rounded-full' }">ACCEDI O REGISTRATI
                     </UButton>
 
                     <p class="text-white text-sm ">Hai perso la tua card?
@@ -374,7 +374,7 @@
         <p class="tracking-tight font-medium text-xl leading-5">Se sei un cliente VIP, accedi gratuitamente al webinar legato alla genitorialità.
           Un percorso preparato per te con partners autorevoli per riscoprire come le skills genitoriali possono
           dare una marcia in più in famiglia e nella professione.</p>
-        <a class="bg-[#E82770] font-xl w-1/3 text-center px-5 py-3 rounded-full text-white">ACCEDI SUBITO
+        <a href="#" class="bg-[#E82770] font-xl w-1/3 text-center px-5 py-3 rounded-full text-white">ACCEDI SUBITO
         </a>
       </figcaption>
       <div
@@ -515,6 +515,7 @@
 }
 .carousel__next{
     color: #e72b6f;
+
 }
 
 

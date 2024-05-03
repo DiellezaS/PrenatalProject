@@ -7,18 +7,18 @@
                    <LaTuaCard />
                </div>
    
-               <div class="w-full my-12 rounded-3xl text-xl">
+               <div class="w-full my-6 rounded-3xl text-xl">
                    <h1 class="text-[#e72b6f] text-4xl  font-semibold my-8">I tuoi dati</h1>
                    
-                   <div class="bg-[#f7f7f7] w-full rounded-3xl h-80">
-                       <div class="grid gap-6 mb-5 md:grid-cols-2 p-8 form-floating">
+                   <div class="bg-[#f7f7f7] w-full rounded-3xl height">
+                       <div class="grid gap-6 mb-5 md:grid-cols-2 p-12 form-floating">
                            <div class="relative z-0 text-gray-700 w-full mb-4 group bg-white">
-                               <input type="text" name="floating_name" id="floating_name" class="bg-gray-50 block p-4 text-sm rounded-lg w-full bg-transparent border dark:bg-gray-50 text-gray-800 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
+                               <input type="text" name="floating_name" id="floating_name" class="bg-gray-50 block p-4 text-sm rounded-lg w-full bg-transparent border-2 border-gray-300 dark:bg-gray-50 text-gray-800 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
                                <label for="floating_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto px-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-2">Nome*</label>
                            </div>
    
                            <div class="relative z-0 text-gray-700 w-full mb-4 group bg-white">
-                               <input type="text" name="floating_cognome" id="floating_cognome" class="bg-gray-50 block p-4 text-sm rounded-lg w-full bg-transparent border dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
+                               <input type="text" name="floating_cognome" id="floating_cognome" class="bg-gray-50 block p-4 text-sm rounded-lg w-full bg-transparent border-2 border-gray-300 dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
                                <label for="floating_cognome" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto px-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-3">Cognome*</label>
                            </div>
    
@@ -26,31 +26,31 @@
    
    
                            <div class="relative z-0 w-full mb-4 group bg-white">
-       <input type="Date" name="floating_data" id="floating_data" class="bg-gray-50 block py-3 px-0 text-sm rounded-lg w-full p-4 bg-transparent border dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
-       <label for="floating_data" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto px-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-1">Data di nascita*</label>
+       <input type="Date" name="floating_data" id="floating_data" class="bg-gray-50 block py-3 px-3 text-sm rounded-lg w-full p-4 bg-transparent border-2 border-gray-300 dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
+       <label for="floating_data" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-3 scale-100 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto px-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-3">Data di nascita*</label>
    </div>
    
      <div class="relative z-0 w-full mb-4 group bg-white">
-                               <select name="floating_genere" id="floating_genere" class="bg-gray-50 block py-3 px-4 text-sm rounded-lg w-full bg-transparent border dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required >
+                               <select name="floating_genere" id="floating_genere" class="bg-gray-50 block py-3 px-4 text-sm rounded-lg w-full bg-transparent border-2 border-gray-300 dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required >
                                    <option>Femmina</option>
                                    <option>Uomo</option>
                                </select>
-                               <label for="floating_genere" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-2 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto px-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-3">Genere*</label>
+                               <label for="floating_genere" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-2 scale-100 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto px-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-3">Genere*</label>
                            </div>
    
        <div class="relative z-0 w-full mb-4 group bg-white">
-         <input type="email" name="floating_email" id="floating_email" class="bg-gray-50 block py-3 px-0 text-sm rounded-lg w-full p-4 bg-transparent border  dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
+         <input type="email" name="floating_email" id="floating_email" class="bg-gray-50 block py-3 px-0 text-sm rounded-lg w-full p-4 bg-transparent border-2 border-gray-300 dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
          <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto  px-3  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-3">Email address*</label>
      </div>
    
      <div class="relative z-0 w-full mb-4 bg-white">
-         <input type="text" name="floating_number" id="floating_email" class=" block py-3 px-0 text-sm rounded-lg w-full p-4 bg-transparent border  dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+         <input type="text" name="floating_number" id="floating_email" class=" block py-3 px-0 text-sm rounded-lg w-full p-4 bg-transparent border-2 border-gray-300 dark:bg-gray-50 text-gray-700 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
          <label for="floating_number" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto  px-3 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-x-75 peer-focus:-translate-y-3">Cellulare</label>
    
    </div>
    <div></div>
    
-     <div class="flex text-lg -translate-y-10">
+     <div class="flex text-lg -translate-y-8">
         <span>
      <svg viewBox="-0.5 0 25 25" fill="none" width="40px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
        <path d="M12 21.5C17.1086 21.5 21.25 17.3586 21.25 12.25C21.25 7.14137 17.1086 3 12 3C6.89137 3 2.75 7.14137 2.75 12.25C2.75 17.3586 6.89137 21.5 12 21.5Z" stroke="#e72b6f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> 
@@ -69,12 +69,12 @@
               17.23 11.8079 17.2119 11.723 17.1767C11.6381 17.1415 11.5609 17.09 11.4959 17.025C11.4309
                16.96 11.3793 16.8828 11.3442 16.7979C11.309 16.713 11.2909 16.622 11.2909 16.5301Z" fill="#e72b6f">
            </path> </g></svg></span>
-         <p class="text-[#e72b6f] ">Perché è importante?</p>
+         <p class="text-[#e72b6f] font-medium">Perché è importante?</p>
        </div>
        
        <div></div>
    
-       <div class="-translate-y-16 text-lg font-light mx-10">  <p >Riceverai le nostre promazioni più importanti via SMS</p></div>
+       <div class="-translate-y-16 text-lg text-gray-800 mx-10">  <p >Riceverai le nostre promazioni più importanti via SMS</p></div>
        </div>
    
       
@@ -107,16 +107,13 @@
    </div>
    
            <div>
-               <h2 class="text-[#E72B6F] text-3xl font-semibold my-8">La tua famiglia si sta allargando?</h2>
-            
+            <h2 class="text-[#E72B6F] text-3xl font-semibold my-8">La tua famiglia si sta allargando?</h2>
+
 <div class="relative max-w-sm">
-  <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-     <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-        <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
-      </svg>
-  </div>
-  <input datepicker datepicker-buttons datepicker-autoselect-today  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date">
+   
+    <input type="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date">
 </div>
+
    
 
        </div>
@@ -194,7 +191,7 @@
     <div class="flex">
         <label class=" items-center  cursor-pointer ">
   <input type="checkbox" value="" class="sr-only peer" checked>
-  <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+  <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-6 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
 </label>
 
         <h2 class="text-[#E72B6F] text-2xl font-medium mx-10">VUOI RICEVERE OFFERTE PERSONALIZZATE?</h2>
@@ -243,7 +240,7 @@
    </div>
 
 <div class="flex">
-    <a href="#" type="button" class="text-center bg-[#E72B6F] mx-auto py-4 w-3/5 mt-16 text-xl text-white rounded-full">SALVA LE MODIFICHE</a>
+    <a href="#" type="button" class="text-center bg-[#E72B6F] mx-auto py-4 w-3/5 my-16 text-xl text-white rounded-full">SALVA LE MODIFICHE</a>
 </div>
    
 
@@ -262,7 +259,7 @@
    
    
    
-   <style>
+   <!-- <style>
    input[type="Date"]::-webkit-calendar-picker-indicator {
        display: none;
    } 
@@ -276,6 +273,13 @@
    }
    
    
-   </style>
+   </style> -->
    
-   
+   <style>
+.height{
+    height: 370px;
+}
+</style>
+
+
+

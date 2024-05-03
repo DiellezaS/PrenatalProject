@@ -50,7 +50,7 @@
             <div class="flex flex-col gap-5 py-4 px-8 leading-normal">
               <span class="text-3xl font-semibold tracking-tight text-[#E72B6F] dark:text-white">Title</span>
               <p class="leading-5 text-lg tracking-tight dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                <a href="#" type="button" class="bg-[#E72B6F] text-lg  text-white py-3 w-1/4 rounded-full text-center font-normal ">SCOPRI DI PIÙ</a>
+                <a href="/page5" type="button" class="bg-[#E72B6F] text-lg  text-white py-3 w-1/4 rounded-full text-center font-normal ">SCOPRI DI PIÙ</a>
             </div>
         </div>
     </div>

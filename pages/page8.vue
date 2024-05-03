@@ -44,7 +44,7 @@
                        
                     <div class="flex items-center  rounded-3xl h-40 p-6 border border-[#f9eced]">
                        
-                        <svg class="absolute bg-[#277766] w-24 -translate-x-8 -translate-y-4 border border-[#f9eced]" height="24" style="text-anchor: middle;">
+                        <svg class="absolute bg-[#277766] w-24 -translate-x-8 -translate-y-14 border border-[#f9eced]" height="24" style="text-anchor: middle;">
             <text x="50%" y="50%" dy=".3em" font-size="10px" letter-spacing="0.5" fill="white">DA SBLOCCARE</text>
         </svg>
                         <span class="rounded-full  bg-[#f9eced] flex items-center justify-center">
