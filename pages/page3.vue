@@ -1,44 +1,44 @@
 <template>
     <Navbar />
-    <div class="max-w-screen-2xl mx-auto flex flex-col mt-16">
-        <div class="flex flex-row gap-7 mx-auto ">
+    <div class="max-w-screen-2xl sm:mx-auto flex flex-col mt-16">
+        <div class="sm:flex flex-row gap-7 mx-auto ">
         <div class="w-1/4">
           <LaTuaCard/>
         </div>
-        <div class="flex flex-col gap-4 w-2/4">
-                <div class="bg-[#F9ECED] px-6 pt-5 pb-16 rounded-3xl">
-                    <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5">La tua Fidelity Card</h1>
-                    <div class=" flex flex-row gap-6">
-                        <div class="">
-                            <img src="assets\vip_card.png" class="rounded-xl w-auto h-64" alt="Prenatal Card">
-                            <h2 class="-translate-y-10 text-center font-bold text-lg">{{ cardNumber }}</h2>
-                        </div>
-                        <div class="flex flex-col gap-1 w-1/2">
-                            <h2 class="text-[#E73B7A] text-lg tracking-tighter font-semibold">Numero Card:</h2>
-                            <p class=" font-bold">{{ cardNumber }}</p>
-                            <div class="flex flex-row gap-2 text-lg tracking-tighter">
-                                <h2 class="text-[#E73B7A] font-semibold">Stato:</h2>
-                                <h3>Attiva</h3>
-                            </div>
-                            <div class="flex text-lg gap-4 tracking-tighter font-semibold text-[#FE720C]">
-                                <h2 class="text-[#E73B7A]">Scadenza: </h2>
-                                <h3>29/05/2024</h3>
-                            </div>
-                            <div class="flex text-md gap-2 tracking-tighter font-semibold text-[#FE720C]"><svg
-                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="2.5" stroke="currentColor" class="w-8 h-8 translate-y-2">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
-                                </svg>
-                                <h4 class="w-3/4">La tua card sta per scadere rinnovala subito!</h4>
-                            </div>
-                            <a href="#"><button
-                                    class="bg-[#E82770] rounded-3xl text-white py-3 mt-6 px-6 text-lg">RINNOVA LA
-                                    CARD</button></a>
-                        </div>
-                    </div>
+        <div class="flex flex-col gap-4 w-2/4 sm:w-2/3 ">
+    <div class="bg-[#eaf1fd] px-6 pt-5 pb-16 rounded-3xl">
+        <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5 text-center sm:text-left">La tua Fidelity Card</h1>
+        <div class="flex flex-col sm:flex-row items-center gap-6">
+            <div class="flex justify-center sm:justify-start">
+                <img src="assets\vip_card.png" class="rounded-xl w-auto h-64" alt="Prenatal Card">
+            </div>
+            <div class="flex flex-col gap-1 w-full sm:w-1/2">
+                <h2 class="text-[#E73B7A] text-lg tracking-tighter font-semibold">Numero Card:</h2>
+                <p class="font-bold text-center sm:text-left">{{ cardNumber }}</p>
+                <div class="flex flex-row gap-2 text-lg tracking-tighter">
+                    <h2 class="text-[#E73B7A] font-semibold">Stato:</h2>
+                    <h3>Attiva</h3>
                 </div>
-                <Dati/>
+                <div class="flex text-lg gap-4 tracking-tighter font-semibold text-[#FE720C]">
+                    <h2 class="text-[#E73B7A]">Scadenza: </h2>
+                    <h3>29/05/2024</h3>
+                </div>
+                <div class="flex text-md gap-2 tracking-tighter font-semibold text-[#FE720C]">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                        stroke="currentColor" class="w-8 h-8 translate-y-2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+                    </svg>
+                    <h4 class="w-3/4">La tua card sta per scadere, rinnova subito!</h4>
+                </div>
+                <a href="#"><button
+                        class="bg-[#E82770] rounded-3xl text-white py-3 mt-6 px-6 text-lg w-full">RINNOVA LA
+                        CARD</button></a>
+            </div>
+        </div>
+    </div>
+<Dati/>
+                
             </div>
             <div class="grid grid-col gap-5 w-1/4 ">
                 <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-10 pt-24">

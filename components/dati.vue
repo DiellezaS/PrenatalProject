@@ -1,7 +1,8 @@
 <template>
+  <div class="flex flex-row">
   <div class=" flex flex-col gap-4">
   <div class="conteiner  bg-[#F7F7F7]  p-8 rounded-3xl ">
-      <div class="flex flex-row gap-24">
+      <div class="md:flex flex-row gap-24">
   <div class="w-1/2 flex flex-col text-lg">
   <h2 class="text-[#E72B6F] text-2xl font-semibold ">I tuoi dati</h2>
   <ul class="font-semibold space-y-4 my-6">
@@ -50,35 +51,36 @@
   </div>
   <div class="flex flex-col px-3">
       <h1 class="text-[#E72B6F] text-2xl font-semibold mb-4">La tua famiglia</h1>
-      <div class="grid grid-cols-2 gap-x-5 gap-y-2">
-          <div class="flex items-center  bg-white border border-gray-200 rounded-md shadow max-w-lg h-28 ">
-              <img class="object-cover w-full rounded-t-lg h-44 md:h-full md:w-16 md:rounded-none md:rounded-s-lg" src="assets\boyy.png" alt="">
-              <div class="flex flex-col justify-between p-4 leading-normal">
-                  <span class="mb-1 text-lg font-semibold tracking-tight text-[#E72B6F] dark:text-white">Name</span>
-                  <p class=" font-semibold tracking-tighter dark:text-gray-400">Data di nascita:</p>
-                  <h6 class="font-semibold tracking-tighter">Genere:</h6>
-              </div>
-          </div>
-          <div class="flex items-center bg-white border rounded-lg shadow max-w-lg h-28 ">
-              <img class="object-cover w-full rounded-t-lg h-44 md:h-full md:w-16 md:rounded-none md:rounded-s-lg" src="assets\girl.png" alt="">
-              <div class="flex flex-col justify-between p-4 leading-normal">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-2">
+        <div class="flex items-center bg-white border border-gray-200 rounded-md shadow h-28">
+            <img class="object-cover w-16 h-28 rounded-t-lg md:w-16 md:h-full md:rounded-none md:rounded-l-lg" src="assets/boyy.png" alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal">
                 <span class="mb-1 text-lg font-semibold tracking-tight text-[#E72B6F] dark:text-white">Name</span>
-                  <p class=" font-semibold tracking-tighter dark:text-gray-400">Data di nascita: <span class="font-normal">03/05/2020</span></p>
-                  <h6 class="font-semibold tracking-tighter">Genere:</h6>
-              </div>
+                <p class="font-semibold tracking-tighter dark:text-gray-400">Data di nascita:</p>
+                <h6 class="font-semibold tracking-tighter">Genere:</h6>
+            </div>
           </div>
-        <div class="flex items-center bg-white border  rounded-lg shadow max-w-lg h-28 ">
-              <img class="object-cover w-full rounded-t-lg h-44 md:h-full md:w-16 md:rounded-none md:rounded-s-lg" src="assets\girl.png" alt="">
-              <div class="flex flex-col justify-between p-4 leading-normal">
+          <div class="flex items-center bg-white border rounded-lg shadow h-28">
+            <img class="object-cover w-16 h-28 rounded-t-lg md:w-16 md:h-full md:rounded-none md:rounded-l-lg" src="assets/girl.png" alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal">
                 <span class="mb-1 text-lg font-semibold tracking-tight text-[#E72B6F] dark:text-white">Name</span>
-                  <p class=" font-semibold tracking-tighter dark:text-gray-400">Data di nascita:</p>
-                  <h6 class="font-semibold tracking-tighter">Genere:</h6>
-              </div>
-          </div>
+                <p class="font-semibold tracking-tighter dark:text-gray-400">Data di nascita: <span class="font-normal">03/05/2020</span></p>
+                <h6 class="font-semibold tracking-tighter">Genere:</h6>
+            </div>
+        </div>
+        <div class="flex items-center bg-white border rounded-lg shadow h-28">
+            <img class="object-cover w-16 h-28 rounded-t-lg md:w-16 md:h-full md:rounded-none md:rounded-l-lg" src="assets/girl.png" alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal">
+                <span class="mb-1 text-lg font-semibold tracking-tight text-[#E72B6F] dark:text-white">Name</span>
+                <p class="font-semibold tracking-tighter dark:text-gray-400">Data di nascita:</p>
+                <h6 class="font-semibold tracking-tighter">Genere:</h6>
+            </div>
+        </div>
       </div>
-    <a href="#" type="button" class="bg-[#E72B6F] self-center text-white  py-3 px-5 w-40 rounded-full text-xl text-center mt-5">MODIFICA</a>
+      <a href="#" type="button" class="bg-[#E72B6F] self-start md:self-center text-white py-3 px-5 w-40 rounded-full text-xl text-center mt-5">MODIFICA</a>
 </div>
     </div>
+
 
     <div class="flex flex-col  px-8 py-7 rounded-3xl border border-b-7 border-gray-300 text-xl">
       <h2 class="text-[#e72b6f] text-2xl  gap-3 font font-bold mb-4">I tuoi badge</h2>
@@ -193,5 +195,5 @@
 
     </div>
 
-  </div>
+  </div></div>
 </template>

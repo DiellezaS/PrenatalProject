@@ -1,16 +1,16 @@
 <template>
-<div class=" bg-[#fff8ee] flex flex-row box-content  rounded-3xl m-40 max-w-screen-2xl  mx-auto p-5 justify-center">
-  <div class="flex -translate-x-16 ">
-    <img src="assets\logo.png" alt="happy box" class="relative size-32 m-6 left-20 place-items-center p-2">
-    <img src="assets\happy_box.png" class="w-100 h-80 p-2 "> 
-
+<div class=" bg-[#fff8ee] sm:flex flex-row   rounded-3xl  my-20 max-w-screen-3xl m-6 md:mx-auto p-5 ">
+  <div class="flex items-center md:flex-row  ">
+      <img src="assets\logo.png" alt="happy box" class="w-20 m-6 sm:right-20 md:w-32 md:ml-0">
+      <img src="assets\happy_box.png" alt="happy box" class="w-44 md:w-80">
+    </div>
+    <div class="text-lg mt-8 md:ml-24">
+      <h1 class="text-[#E72B6F] font-bold text-3xl">Happy box in regalo!</h1>
+      <p class="mt-4 tracking-wide">La confezione ricca di prodotti e servizi per le mamme e i papa in dolce attesa, che potrai ritirare Prenatal a tua scelta o ricevere all'indirizzo che preferisci.</p>
+      <p class="">Se non l'hai mai richiesta, cosa aspetti?</p>
+      <UButton class="bg-[#E72B6F] mt-4 px-6 py-3 rounded-full md:w-[30%] self-center text-lg font-normal hover:bg-[#E72B6F]">RICHIEDILA SUBITO, È GRATIS</UButton>
+      <p class="mt-4 text-sm text-gray-500">L'immagine è a puro scopo illustrativo, i prodotti cambiano periodicamente a seconda del periodo e luogo di ritiro.</p>
+    </div>
   </div>
-  <div class=" text-lg box-content translate-x-2 w-4/12 p-9 ml-11">
-    <h1 class="text-[#E72B6F] font-bold text-3xl ">Happy box in regalo!</h1>
-    <p class="tracking-tight">La confezione ricca di prodotti e servizi per le mamme e i papa in dolce attesa, che potrai ritirare Prenatal a tua scelta o ricevere all'indirizzo che preferisci.</p>
-    <p>Se non l'hai mai richiesta,cosa aspetti?</p>
-    <UButton class="bg-[#E72B6F] mx-4 p-3 translate-y-7 hover:bg-[#E72B6F]":ui="{ rounded: 'rounded-full' }">RICHIEDILA SUBITO, E GRATIS</UButton>
-    <h4 class="text-gray-400 text-sm translate-y-16">L'immagine e a puro scopo illustrativo,i prodotti cambiano periodicamente a seconda del periodo e luogo di ritiro.</h4>
-</div>
-</div>
 </template>
+

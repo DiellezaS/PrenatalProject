@@ -3,7 +3,7 @@
   <Navbar />
 
   <div class="max-w-screen-2xl mx-auto flex flex-col mt-16">
-    <div class="flex flex-row mx-auto gap-6">
+    <div class="sm:flex flex-row mx-auto gap-6">
       <div>
         <LaTuaCard />
       </div>
@@ -155,6 +155,7 @@
 .carousel__icon.isActive {
   color: #E82770;
 }
+
 </style>
 
 
