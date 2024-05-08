@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-row">
+  <div class="flex flex-row ">
   <div class=" flex flex-col gap-4">
-  <div class="conteiner  bg-[#F7F7F7]  p-8 rounded-3xl ">
+  <div class="conteiner  bg-[#F7F7F7]  p-8 rounded-3xl w-2/4 md:w-full">
       <div class="md:flex flex-row gap-24">
   <div class="w-1/2 flex flex-col text-lg">
   <h2 class="text-[#E72B6F] text-2xl font-semibold ">I tuoi dati</h2>
@@ -21,28 +21,28 @@
       <li>Data presunto parto:<span class="font-normal mx-2"></span></li>
   </ul>
   </div>
-  <div class="w-2/3 text-xl pr-3">
+  <div class="w-full text-xl pr-3">
     <h2 class="text-[#E72B6F] text-2xl font-semibold">I tuoi consensi</h2>
     <div class="border-b-2  divide-[#DEDEDE] flex flex-row items-center  py-6 ">
-      <h3 class="w-3/4 tracking-tight leading-5">Puoi ricevere le nostre comunicazioni</h3>
+      <h3 class="md:w-3/4 w-full tracking-tight leading-5">Puoi ricevere le nostre comunicazioni</h3>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" class="w-6 h-6" stroke="green">
         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
       </svg>
     </div>
     <div class="border-b-2 divide-[#DEDEDE] flex flex-row items-center  py-6">
-      <h3 class="w-3/4 tracking-tight leading-5">Puoi ricevere comunicazioni personalizzate</h3>
+      <h3 class="md:w-3/4 w-full tracking-tight leading-5">Puoi ricevere comunicazioni personalizzate</h3>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" class="w-7 h-7" stroke="green">
         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
       </svg>
     </div>
     <div class="border-b-2 divide-[#DEDEDE] flex flex-row items-center  py-6">
-      <h3 class="w-3/4 tracking-tight leading-5" >Puoi rispondere a survey e sondaggi</h3>
+      <h3 class="md:w-3/4 w-full tracking-tight leading-5" >Puoi rispondere a survey e sondaggi</h3>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" class="w-7 h-7" stroke="red">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>
     </div>
     <div class="border-b-2  divide-[#DEDEDE] flex flex-row items-center  py-6">
-      <h3 class="w-3/4 tracking-tight leading-5">Puoi ricevere comunicazioni da altre società del Gruppo e/o da soggetti Terzi</h3>
+      <h3 class="md:w-3/4 w-full tracking-tight leading-5">Puoi ricevere comunicazioni da altre società del Gruppo e/o da soggetti Terzi</h3>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" class="w-7 h-7" stroke="red">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>
@@ -53,7 +53,7 @@
       <h1 class="text-[#E72B6F] text-2xl font-semibold mb-4">La tua famiglia</h1>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-2">
         <div class="flex items-center bg-white border border-gray-200 rounded-md shadow h-28">
-            <img class="object-cover w-16 h-28 rounded-t-lg md:w-16 md:h-full md:rounded-none md:rounded-l-lg" src="assets/boyy.png" alt="">
+            <img class="object-cover w-16 h-28 rounded-t-none md:w-16 md:h-full md:rounded-none md:rounded-l-lg rounded-l-lg" src="assets/boyy.png" alt="">
             <div class="flex flex-col justify-between p-4 leading-normal">
                 <span class="mb-1 text-lg font-semibold tracking-tight text-[#E72B6F] dark:text-white">Name</span>
                 <p class="font-semibold tracking-tighter dark:text-gray-400">Data di nascita:</p>
@@ -61,7 +61,7 @@
             </div>
           </div>
           <div class="flex items-center bg-white border rounded-lg shadow h-28">
-            <img class="object-cover w-16 h-28 rounded-t-lg md:w-16 md:h-full md:rounded-none md:rounded-l-lg" src="assets/girl.png" alt="">
+            <img class="object-cover w-16 h-28 rounded-t-none md:w-16 md:h-full md:rounded-none md:rounded-l-lg rounded-l-lg" src="assets/girl.png" alt="">
             <div class="flex flex-col justify-between p-4 leading-normal">
                 <span class="mb-1 text-lg font-semibold tracking-tight text-[#E72B6F] dark:text-white">Name</span>
                 <p class="font-semibold tracking-tighter dark:text-gray-400">Data di nascita: <span class="font-normal">03/05/2020</span></p>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="flex items-center bg-white border rounded-lg shadow h-28">
-            <img class="object-cover w-16 h-28 rounded-t-lg md:w-16 md:h-full md:rounded-none md:rounded-l-lg" src="assets/girl.png" alt="">
+            <img class="object-cover w-16 h-28 rounded-t-none md:w-16 md:h-full md:rounded-none md:rounded-l-lg rounded-l-lg" src="assets/girl.png" alt="">
             <div class="flex flex-col justify-between p-4 leading-normal">
                 <span class="mb-1 text-lg font-semibold tracking-tight text-[#E72B6F] dark:text-white">Name</span>
                 <p class="font-semibold tracking-tighter dark:text-gray-400">Data di nascita:</p>
@@ -77,17 +77,21 @@
             </div>
         </div>
       </div>
-      <a href="#" type="button" class="bg-[#E72B6F] self-start md:self-center text-white py-3 px-5 w-40 rounded-full text-xl text-center mt-5">MODIFICA</a>
+      <a href="#" type="button" class="bg-[#E72B6F] self-start md:self-center text-white py-3 px-5 md:w-40 w-full rounded-full text-xl text-center mt-5">MODIFICA</a>
 </div>
     </div>
 
 
-    <div class="flex flex-col  px-8 py-7 rounded-3xl border border-b-7 border-gray-300 text-xl">
-      <h2 class="text-[#e72b6f] text-2xl  gap-3 font font-bold mb-4">I tuoi badge</h2>
+    
+
+      <div class="flex flex-col px-8 py-7 rounded-3xl border border-b-7 border-gray-300 text-xl w-2/4 md:w-full">
+  <h2 class="text-[#e72b6f] text-2xl gap-3 font font-bold mb-4">I tuoi badge</h2>
       <p>Completa le azioni per sbloccare più badge possibili!</p>
-      <div class="flex flex-row space-x-2 translate-y-8 ">
-        <span class="rounded-full  bg-[#f9eced] flex items-center justify-center">
-          <div class="rounded-full w-24 h-24 bg-[#f9eced] flex items-center justify-center">
+
+      
+      <div class="flex md:flex-row space-x-2 translate-y-8 w-3/5 md:w-full ">
+        <span class="rounded-full  bg-[#f9eced] flex items-center justify-center ">
+          <div class="rounded-full md:w-24 md:h-24  bg-[#f9eced] flex items-center justify-center ">
             <svg fill="#e72b6f" height="40px" width="60px" version="1.2" baseProfile="tiny" id="Layer_1"
               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-217 51 256 256"
               xml:space="preserve">

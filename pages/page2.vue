@@ -7,7 +7,7 @@
       <div>
         <LaTuaCard />
       </div>
-      <div class="flex flex-col gap-6 w-2/4">
+      <div class="md:flex flex-col gap-6 w-2/4">
         <div class="bg-[#F9ECED] px-6 pt-5 pb-24 rounded-3xl">
         <h1 class="text-[#E73B7A] text-2xl font-bold tracking-tighter py-5">La tua Card</h1>
         <div class=" flex flex-row gap-6">

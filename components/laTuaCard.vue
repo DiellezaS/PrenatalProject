@@ -92,7 +92,7 @@ export default defineComponent({
   display: none; 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 786px) {
   .w-1\4 {
     display: none; 
   }
@@ -100,5 +100,6 @@ export default defineComponent({
   .dropdown {
     display: block; 
   }
+  
 }
 </style>

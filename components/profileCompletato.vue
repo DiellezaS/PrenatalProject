@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#F7F7F7] px-7 py-4 text-center rounded-2xl grid grid-col gap-20">
+    <div class="bg-[#F7F7F7] px-7 py-4 text-center rounded-2xl grid grid-col gap-20  ">
         <div>
             <h1 class="text-2xl font-semibold text-[#E72B6F] tracking-tight">Profilo Completato al</h1>
             <div id="app">

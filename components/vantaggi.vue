@@ -1,21 +1,81 @@
 <template>
     <div class="w-4/5 mt-12 justify-end flex flex-col gap-8">
-        <h1 class="text-[#E72B6F] text-4xl font-bold ">Altri vantaggi esclusivi</h1>
-        <h3 class="text-xl tracking-tight">Scopri le offerte attive in questo momento con i nostri partner selezionati, tutte riservate ai soli clienti registrati</h3>
-        <div class="flex gap-5">
-            <img src="https://www.bitrefill.com/primg/w350h212/lastminute_com-belgium-holiday-flight-_-hotel-packages-belgium.webp" class="vantaggi-image" alt="">
-            <img src="https://www.richmonditalia.it/wp-content/themes/yootheme/cache/Elty-c9c630f5.jpeg" class="vantaggi-image border-2 border-gray-300" alt="">
-            <img src="https://www.picclickimg.com/WDIAAOSwD1Rlo6gT/CODICE-VOUCHER-COUPON-PHOTOSI-20EURO-GIFT-PROMOZIONALE-SCONTO.webp" class="vantaggi-image" alt="">
-            <img alt="" class="vantaggi-image" src="https://storage.googleapis.com/prg-loyalty.appspot.com/media/102/img-logo---595x422px.jpg">
-            <img src="https://storage.googleapis.com/prg-loyalty.appspot.com/media/93/CLINIQUE_IMMAGINE-ANTEPRIMA.png" class="vantaggi-image" alt="">
-        </div>
-        <a href="/page4" class="mx-auto"><button class=" border border-[#E72B6F] text-[#E72B6F] rounded-3xl py-2 px-6 text-xl">SCOPRI DI PIÚ</button></a>
+      <h1 class="text-[#E72B6F] text-4xl font-bold">Altri vantaggi esclusivi</h1>
+      <h3 class="text-xl tracking-tight">Scopri le offerte attive in questo momento con i nostri partner selezionati, tutte riservate ai soli clienti registrati</h3>
+      <div class="flex gap-5" ref="carouselContainer">
+        <img src="https://www.bitrefill.com/primg/w350h212/lastminute_com-belgium-holiday-flight-_-hotel-packages-belgium.webp" class="vantaggi-image" alt="">
+        <img src="https://www.richmonditalia.it/wp-content/themes/yootheme/cache/Elty-c9c630f5.jpeg" class="vantaggi-image border-2 border-gray-300" alt="">
+        <img src="https://www.picclickimg.com/WDIAAOSwD1Rlo6gT/CODICE-VOUCHER-COUPON-PHOTOSI-20EURO-GIFT-PROMOZIONALE-SCONTO.webp" class="vantaggi-image" alt="">
+        <img alt="" class="vantaggi-image" src="https://storage.googleapis.com/prg-loyalty.appspot.com/media/102/img-logo---595x422px.jpg">
+        <img src="https://storage.googleapis.com/prg-loyalty.appspot.com/media/93/CLINIQUE_IMMAGINE-ANTEPRIMA.png" class="vantaggi-image" alt="">
+      </div>
+      <a href="/page4" class="mx-auto"><button class=" border border-[#E72B6F] text-[#E72B6F] rounded-3xl py-2 px-6 text-xl">SCOPRI DI PIÚ</button></a>
     </div>
-</template>
-<style>
-.vantaggi-image{
+  </template>
+  
+  <script>
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
+
+  export default {
+    mounted() {
+      this.initCarousel();
+    },
+    methods: {
+        initCarousel() {
+  this.$nextTick(() => {
+    const container = this.$refs.carouselContainer;
+    if (container) {
+      new Swiper(container, {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2, 
+          }
+        }
+      });
+    }
+  });
+}
+
+}
+
+  }
+  </script>
+  
+  
+  <style scoped>
+  @media (max-width: 768px) {
+    .vantaggi-carousel {
+      overflow: hidden;
+    }
+    .vantaggi-image {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+  }
+  
+  .swiper-container {
+    width: 80%;
+    height: auto;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    color: #E72B6F;
+  }
+  
+  .vantaggi-image {
     width: 18%;
     height: auto;
     border-radius: 0.5rem;
-}
-</style>
+  }
+
+  
+  </style>
+  

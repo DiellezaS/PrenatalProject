@@ -5,7 +5,7 @@
         <div class="w-1/4">
           <LaTuaCard/>
         </div>
-        <div class="flex flex-col gap-4 w-2/4 sm:w-2/3 ">
+        <div class="flex flex-col gap-4 w-2/4 md:w-full ">
     <div class="bg-[#eaf1fd] px-6 pt-5 pb-16 rounded-3xl">
         <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5 text-center sm:text-left">La tua Fidelity Card</h1>
         <div class="flex flex-col sm:flex-row items-center gap-6">
@@ -40,10 +40,10 @@
 <Dati/>
                 
             </div>
-            <div class="grid grid-col gap-5 w-1/4 ">
+            <div class="grid grid-col gap-5 md:w-1/4 w-1/5">
                 <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-10 pt-24">
                     <img src="assets\parental_skills.png" alt="Parental Skills"
-                        class="absolute inset-0 w-full object-cover">
+                        class="absolute inset-0 w-full   object-cover">
                     <div class="svg-container absolute top-0 left-0">
                         <svg width="100" height="100" view-box="0 0 100 100">
                             <circle cx="28" cy="25" r="51" fill="white" />
@@ -59,7 +59,7 @@
                         </svg>
                     </div>
                     <div class="absolute inset-0"></div>
-                    <h3 class="z-10 mt-3 text-2xl font-bold text-[#E82770] text-center mb-3">Parental Skills at Work
+                    <h3 class="z-10 mt-3 text-2xl font-bold text-[#E82770] text-center mb-3 ">Parental Skills at Work
                     </h3>
                     <div class="z-10 text-md font-normal tracking-tight leading-5 px-12 text-center mb-5">Accedi gratuitamente al
                         webinar legato alla genitorialità. Riscopri tue skills genitoriali con i nostri autorevoli
@@ -69,13 +69,13 @@
                 </article>
                 <profileCompletato />
                 <div class="grid grid-col px-9 py-9 rounded-3xl border border-gray-300">
-          <h1 class="text-[#E82770] text-2xl font-semibold">Invita un amico</h1>
+          <h1 class="text-[#E82770] text-2xl font-semibold my-3">Invita un amico</h1>
           <div>
-            <p class="text-lg tracking-tight leading-5 -translate-y-3  ">Condividi i link con un tuo amico e ricevi uno sconto di 10
-              euro.</p>
-            <a href="#" class="underline leading-3 ">Scopri di piú</a>
+            <p class="text-lg tracking-tight leading-5 md:-translate-y-3  ">Condividi i link con un tuo amico e ricevi uno sconto di 10
+              euro.
+            <a href="#" class="underline leading-3  ">Scopri di piú</a></p>
           </div>
-          <div class="flex flex-row">
+          <div class="flex flex-row mt-5">
             <input type="text" :value="link" readonly
               class="border border-1 px-8 py-3 rounded-l-md font-light text-lg text-gray-300">
             <button @click="copyLink" class="bg-[#E82770] p-3 rounded-2xl rounded-l-none "><svg class="h-6 w-6 text-white" width="24"
@@ -87,7 +87,7 @@
               </svg>
             </button>
           </div>
-          <div class="bg-[#E82770] text-white flex flex-row  rounded-full mt-4 self-center px-8  py-3 w-35% mx-auto">
+          <div class="bg-[#E82770] text-white flex flex-row  rounded-full mt-4 self-center md:px-8  px-24 py-3 md:w-[60%] w-full mx-auto">
             <svg class="h-6 w-6 mx-auto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round">
               <circle cx="18" cy="5" r="3" />
@@ -96,7 +96,7 @@
               <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
               <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
             </svg>
-            <button @click="shareLink" class="text-xl mx-auto self-center">CONDIVIDI</button>
+            <button @click="shareLink" class="text-xl mx-auto ">CONDIVIDI</button>
           </div>
         </div>
             </div>

@@ -3,7 +3,7 @@
 
     <Navbar/>
     <div :class="{ 'shadow-gray': showAlert }" class="max-w-screen-2xl mx-auto flex flex-col mt-16">
-        <div class="flex flex-row gap-12 mx-auto">
+        <div class="md:flex flex-row gap-12 mx-auto">
         <div class="w-1/4">
             <LaTuaCard/>
             
@@ -16,12 +16,12 @@
         </span><a href="/page4" class="text-[#E72B6F] ">Torna alla pagina principale</a>
         </div>
         
-        <div class="flex flex-col h-1/4">
-            <img src="assets\yoga.jpeg" alt="yogare image" class="w-auto h-full mt-4 rounded-lg">
-            <img src="assets\yogare.png" alt="yogare logo"class="-translate-y-32 w-5/12 h-60 self-center rounded-2xl" >
+        <div class="md:flex flex-col h-1/4">
+            <img src="assets\yoga.jpeg" alt="yogare image" class="md:w-auto md:h-full w-full h-32 mt-4 rounded-lg">
+            <img src="assets\yogare.png" alt="yogare logo"class="md:-translate-y-32  -translate-y-14 mx-auto md:w-5/12 md:h-60 w-[60%] h-32 self-center rounded-2xl" >
         
         </div>
-        <a href="#" type="button" class="w-52 h-10 text-center bg-[#3e5884] p-2  text-white font-medium mt-20 rounded-3xl "> SOLO CON VIP CARD</a>
+        <a href="#" type="button" class="w-52 h-10 text-center bg-[#3e5884] p-2 solosvg text-white font-medium mt-20 rounded-3xl "> SOLO CON VIP CARD</a>
         
         <div class="py-6 p-2 space-y-4">
             <h1 class="text-[#E72B6F] text-4xl font-medium ">Sconto di 50% sull'abbonamento mensile con Yogare.</h1>
@@ -84,67 +84,70 @@
         </template>
         
 
-<style scoped>
+        <style scoped>
 
-.pink-bullets li::before {
-        content: "•"; 
-        color: #f2d5d6; 
-        display: inline-block;
-        width: 1em; 
-        font-size: 1.6em;
-        margin-left: 0em; 
-    }
-
-
-.alert {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 650px; 
-  height: 350px;
-  z-index: 999;
+        .pink-bullets li::before {
+                content: "•"; 
+                color: #f2d5d6; 
+                display: inline-block;
+                width: 1em; 
+                font-size: 1.6em;
+                margin-left: 0em; 
+            }
+        
+        
+        .alert {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: #fff;
+          border: 1px solid #ccc;
+          border-radius: 20px;
+          padding: 20px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          width: 650px; 
+          height: 350px;
+          z-index: 999;
+        }
+        .close-btn {
+          position: absolute;
+          right: 20px;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          font-size: 2rem;
+        
+        }
+        
+        .btn {
+          padding: 12px 16px;
+          background-color: #E72B6F;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          width: 550px;
+        }
+        
+        .overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.5); 
+          z-index: 998; 
+        }
+        .shadow-gray {
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        @media screen and (max-width: 786px) {
+.solosvg{
+    display: none;
 }
-.close-btn {
-  position: absolute;
-  right: 20px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-size: 2rem;
-
 }
-
-.btn {
-  padding: 12px 16px;
-  background-color: #E72B6F;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  width: 550px;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); 
-  z-index: 998; 
-}
-.shadow-gray {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-}
-
-
-</style>
-
+        </style>
+        
 
 <script>
 export default {
