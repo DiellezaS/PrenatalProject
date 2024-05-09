@@ -1,17 +1,17 @@
 <template>
     <Navbar />
-    <div class="max-w-screen-2xl mx-auto flex flex-col mt-16">
-        <div class="flex mx-auto ">
+    <div class="max-w-screen-2xl mx-auto flex flex-col mt-16 ">
+        <div class="md:flex mx-auto ">
             <div class="w-1/4">
                 <LaTuaCard />
             </div>
 
-            <div class="w-3/4  my-12  rounded-3xl  text-xl">
+            <div class="md:w-3/4 w-full my-12  rounded-3xl  text-xl px-6 ">
                 <h1 class="text-[#e72b6f] text-4xl gap-3 font-semibold mb-4">I tuoi Badge</h1>
                 <p class="my-8">Completa le azioni per sbloccare più badge possibili!</p>
 
 
-                <div class="grid grid-cols-2 gap-12 max-w-full">
+                <div class="grid md:grid-cols-2 md:gap-10 gap-8 max-w-full">
 
                     <div class="flex items-center bg-[#f9eced] rounded-3xl h-40 p-6 border border-[#f9eced]">
                         <span class="rounded-full  bg-[#e72b6f] flex items-center justify-center">

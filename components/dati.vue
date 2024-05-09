@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row ">
   <div class=" flex flex-col gap-4">
-  <div class="conteiner  bg-[#F7F7F7]  p-8 rounded-3xl w-2/4 md:w-full">
+  <div class="conteiner  bg-[#F7F7F7]  p-8 rounded-3xl w-full">
       <div class="md:flex flex-row gap-24">
   <div class="w-1/2 flex flex-col text-lg">
   <h2 class="text-[#E72B6F] text-2xl font-semibold ">I tuoi dati</h2>
@@ -49,7 +49,7 @@
     </div>
   </div>
   </div>
-  <div class="flex flex-col px-3">
+  <div class="flex flex-col px-3 w-full">
       <h1 class="text-[#E72B6F] text-2xl font-semibold mb-4">La tua famiglia</h1>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-2">
         <div class="flex items-center bg-white border border-gray-200 rounded-md shadow h-28">
@@ -84,14 +84,16 @@
 
     
 
-      <div class="flex flex-col px-8 py-7 rounded-3xl border border-b-7 border-gray-300 text-xl w-2/4 md:w-full">
+      <div class="flex flex-col px-8 py-7 rounded-3xl border border-b-7 border-gray-300 text-xl w-full">
   <h2 class="text-[#e72b6f] text-2xl gap-3 font font-bold mb-4">I tuoi badge</h2>
       <p>Completa le azioni per sbloccare più badge possibili!</p>
 
       
-      <div class="flex md:flex-row space-x-2 translate-y-8 w-3/5 md:w-full ">
+      <!-- <div class="flex md:flex-row md:space-x-2 md:translate-y-8 w-2/5 md:w-full"> -->
+        <div class="grid grid-cols-4 md:flex flex-row md:w-2/5 md:gap-1 gap-3 mt-8">
+    
         <span class="rounded-full  bg-[#f9eced] flex items-center justify-center ">
-          <div class="rounded-full md:w-24 md:h-24  bg-[#f9eced] flex items-center justify-center ">
+          <div class="rounded-full md:w-24 md:h-24  w-20 h-16 bg-[#f9eced] flex items-center justify-center ">
             <svg fill="#e72b6f" height="40px" width="60px" version="1.2" baseProfile="tiny" id="Layer_1"
               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-217 51 256 256"
               xml:space="preserve">
@@ -108,7 +110,7 @@
         </span>
 
         <span class="rounded-full  bg-[#f9eced] flex items-center justify-center">
-          <div class="rounded-full  w-24 h-24 bg-[#f9eced] flex items-center justify-center">
+          <div class="rounded-full  md:w-24 md:h-24  w-20 h-16 bg-[#f9eced] flex items-center justify-center">
             <svg viewBox="0 0 24 24" fill="none" height="40px" width="40px" xmlns="http://www.w3.org/2000/svg"
               stroke="#E72B6F">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -125,7 +127,7 @@
         </span>
 
         <span class="rounded-full  bg-[#f9eced] flex items-center justify-center ">
-          <div class="rounded-full  w-24 h-24 bg-[#f9eced] flex items-center justify-center">
+          <div class="rounded-full  md:w-24 md:h-24  w-20 h-16 bg-[#f9eced] flex items-center justify-center">
             <svg viewBox="0 0 24 24" fill="none" width="50px" height="50px" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="1"></g>
 
@@ -144,7 +146,7 @@
 
 
         <span class="rounded-full  bg-[#f9eced] flex items-center justify-center">
-          <div class="rounded-full   w-24 h-24 bg-[#f9eced] flex items-center justify-center">
+          <div class="rounded-full md:w-24 md:h-24 w-20 h-16 bg-[#f9eced] flex items-center justify-center">
             <svg fill="#e72b6f" width="30px" height="30px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M0 1694.235h1920V226H0v1468.235ZM112.941 376.664V338.94H1807.06v37.723L960 1111.233l-847.059-734.57ZM1807.06 526.198v950.513l-351.134-438.89-88.32 70.475 378.353 472.998H174.042l378.353-472.998-88.32-70.475-351.134 438.89V526.198L960 1260.768l847.059-734.57Z"
@@ -153,8 +155,8 @@
           </div>
         </span>
 
-        <span class="rounded-full  bg-[#f9eced] flex items-center justify-center">
-          <div class="rounded-full  w-24 h-24 bg-[#f9eced] flex items-center justify-center">
+        <span class="rounded-full  bg-[#f9eced] flex items-center justify-center ">
+          <div class="rounded-full md:w-24 md:h-24 w-20 h-16   bg-[#f9eced] flex items-center justify-center">
             <svg viewBox="0 0 24 24" width="50px" height="50px" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -168,7 +170,7 @@
         </span>
 
         <span class="rounded-full  bg-[#f9eced] flex items-center justify-center">
-          <div class="rounded-full  w-24 h-24 bg-[#f9eced] flex items-center justify-center">
+          <div class="rounded-full md:w-24 md:h-24 w-20 h-16 bg-[#f9eced] flex items-center justify-center">
             <svg class="h-8 w-8 text-[#E72B6F] " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
               stroke-linecap="round" stroke-linejoin="round">
               <circle cx="9" cy="21" r="1" />
@@ -181,7 +183,7 @@
 
 
         <span class="rounded-full  bg-[#f9eced] flex items-center justify-center">
-          <div class="rounded-full    w-24 h-24 bg-[#f9eced] flex items-center justify-center">
+          <div class="rounded-full  md:w-24 md:h-24 w-20 h-16 bg-[#f9eced] flex items-center justify-center">
             <svg fill="#e72b6f" width="40" height="40" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <circle cx="12" cy="10" r="7" fill="none" stroke="#E72B6F" stroke-width="2" />
               <path d="M16.11 15.66 17 21 12 20 7 21 7.89 15.66" fill="none" stroke="#E72B6F" stroke-width="1"

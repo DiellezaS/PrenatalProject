@@ -8,12 +8,12 @@
             <LaTuaCard/>
             
         </div>
-        <div class="w-full flex flex-col">
+        <div class="w-full flex flex-col px-6">
            
-        <div class="flex flex-row  justify-end text-lg "> <span><svg class="w-4 h-8 text-gray-600 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="4" height="8" fill="none" viewBox="0 0 24 24">
+        <div class="flex flex-row  justify-end text-lg "> <span><svg class="w-4 h-8 solosvg text-gray-600 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="4" height="8" fill="none" viewBox="0 0 24 24">
           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m15 19-7-7 7-7"/>
         </svg>
-        </span><a href="/page4" class="text-[#E72B6F] ">Torna alla pagina principale</a>
+        </span><a href="/page4" class="text-[#E72B6F] solosvg ">Torna alla pagina principale</a>
         </div>
         
         <div class="md:flex flex-col h-1/4">
@@ -23,28 +23,28 @@
         </div>
         <a href="#" type="button" class="w-52 h-10 text-center bg-[#3e5884] p-2 solosvg text-white font-medium mt-20 rounded-3xl "> SOLO CON VIP CARD</a>
         
-        <div class="py-6 p-2 space-y-4">
-            <h1 class="text-[#E72B6F] text-4xl font-medium ">Sconto di 50% sull'abbonamento mensile con Yogare.</h1>
-            <h4 class="text-3xl font-light -tracking-tight ">Scade il: 30/04/2024</h4>
+        <div class="md:py-6 p-2 space-y-4">
+            <h1 class="text-[#E72B6F] md:text-4xl text-3xl font-semibold  md:font-medium ">Sconto di 50% sull'abbonamento mensile con Yogare.</h1>
+            <h4 class="md:text-3xl text-xl font-light tracking-tight ">Scade il: 30/04/2024</h4>
         
-            <p class="text-2xl font-normal py-8 ">Vuoi trovare il tuo benessere in modo naturale con lo yoga? Per te che sei cliente Toys Center, Bimbostore & FAO Schwarz attiva subito il tuo abbonamento scontato del 50% a Yogare per tuffarti nel primo studio di yoga online dove, con insegnanti esperti, puoi praticare tecniche di movimento, meditazione, espansione del respiro e di rilassamento profondo. Hai a disposizione oltre 600 lezioni, 7 giorni su 7, 24 ore su 24.</p>
+            <p class="md:text-2xl text-lg  md:tracking-normal tracking-tighter font-normal text-wrap py-8 ">Vuoi trovare il tuo benessere in modo naturale con lo yoga? Per te che sei cliente Toys Center, Bimbostore & FAO Schwarz attiva subito il tuo abbonamento scontato del 50% a Yogare per tuffarti nel primo studio di yoga online dove, con insegnanti esperti, puoi praticare tecniche di movimento, meditazione, espansione del respiro e di rilassamento profondo. Hai a disposizione oltre 600 lezioni, 7 giorni su 7, 24 ore su 24.</p>
         
         </div>
-        <button @click="showAlert = true" class="mt-8 bg-[#E82770] text-white text-xl rounded-full w-60 h-14 p-3 text-center">RICHIEDI CODICE</button>
+        <button @click="showAlert = true" class="md:mt-8 bg-[#E82770] text-white md:text-xl rounded-full w-60 h-14 p-3 text-center">RICHIEDI CODICE</button>
         <div class="my-20 font-normal text-2xl space-y-4">
-            <h5 class="text-[#E72B6F] font-semibold">Utilizzo:</h5>
-            <ul class="pink-bullets space-y-3">
+            <h5 class="text-[#E72B6F] font-semibold ">Utilizzo:</h5>
+            <ul class="pink-bullets md:text-2xl text-xl tracking-tighter ">
                 <li>Vai sul sito https://yogare.eu/partner/</li>
                 <li>Seleziona il vantaggio che sarà aggiunto al carrello</li>
                 <li>Inserisci il codice sconto e termina l'acquisto</li>
-                <li>Validità dell'offerta: dal 01/01/2024 al 30/04/2024 con validità codici fino al 31/05/2024</li>
+                <li >Validità dell'offerta: dal 01/01/2024 al 30/04/2024 con validità codici fino al 31/05/2024</li>
             </ul>
         </div>
         
-        <div class="text-2xl"> 
-            <h4 class="text-[#E72B6F] font-semibold">Termini e condizioni:</h4>
+        <div class="md:text-2xl text-xl tracking-tighter"> 
+            <h4 class="text-[#E72B6F] text-2xl font-semibold">Termini e condizioni:</h4>
             <p class=" mt-6">L'offerta è valida sia per nuovi clienti sia per vecchi clienti inattivi che hanno già utilizzato un periodo di free trial. Il codice sconto si applica al carrello, è utilizzabile una sola volta, non è cumulabile con altri codici sconto e/o altre promo attive sul sito. Non è previsto un meccanismo di alert che informa il cliente della scadenza del mese scontato e del rinnovo.</p>
-            <p class=" mt-8 ">Per assistenza e informazioni: help@yogare.eu</p>
+            <p class=" md:my-6  mt-6 mb-32 ">Per assistenza e informazioni: help@yogare.eu</p>
         </div>
         
         
@@ -91,7 +91,7 @@
                 color: #f2d5d6; 
                 display: inline-block;
                 width: 1em; 
-                font-size: 1.6em;
+                font-size: 1.9em;
                 margin-left: 0em; 
             }
         
@@ -142,10 +142,10 @@
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
         }
         @media screen and (max-width: 786px) {
-.solosvg{
-    display: none;
-}
-}
+          .solosvg{
+              display: none;
+           }
+        }
         </style>
         
 

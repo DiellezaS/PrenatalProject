@@ -2,15 +2,15 @@
 
   <Navbar />
 
-  <div class="max-w-screen-2xl mx-auto flex flex-col mt-16">
-    <div class="sm:flex flex-row mx-auto gap-6">
+  <div class="max-w-screen-2xl md:mx-auto flex flex-col mt-16">
+    <div class="md:flex flex-row mx-auto gap-6">
       <div>
         <LaTuaCard />
       </div>
-      <div class="md:flex flex-col gap-6 w-2/4">
+      <div class="md:flex flex-col gap-6 w-full">
         <div class="bg-[#F9ECED] px-6 pt-5 pb-24 rounded-3xl">
         <h1 class="text-[#E73B7A] text-2xl font-bold tracking-tighter py-5">La tua Card</h1>
-        <div class=" flex flex-row gap-6">
+        <div class=" flex md:flex-row flex-col gap-6">
           <div class="">
           <img src="/assets/prenatal_card.png" class="rounded-3xl w-auto h-64" alt="Prenatal Card">
           <h2 class="-translate-y-10 text-center font-semibold text-xl tracking-wider">{{ cardNumber }}</h2>

@@ -1,18 +1,18 @@
 <template>
     <Navbar />
-    <div class="max-w-screen-2xl sm:mx-auto flex flex-col mt-16">
-        <div class="sm:flex flex-row gap-7 mx-auto ">
+    <div class="max-w-screen-2xl md:mx-auto flex flex-col mt-16">
+        <div class="md:flex flex-row gap-7 mx-auto ">
         <div class="w-1/4">
           <LaTuaCard/>
         </div>
-        <div class="flex flex-col gap-4 w-2/4 md:w-full ">
+        <div class="md:flex flex-col gap-5 w-full ">
     <div class="bg-[#eaf1fd] px-6 pt-5 pb-16 rounded-3xl">
         <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5 text-center sm:text-left">La tua Fidelity Card</h1>
-        <div class="flex flex-col sm:flex-row items-center gap-6">
+        <div class="flex flex-col md:flex-row items-center gap-6">
             <div class="flex justify-center sm:justify-start">
                 <img src="assets\vip_card.png" class="rounded-xl w-auto h-64" alt="Prenatal Card">
             </div>
-            <div class="flex flex-col gap-1 w-full sm:w-1/2">
+            <div class="flex flex-col gap-2 w-full md:w-1/2">
                 <h2 class="text-[#E73B7A] text-lg tracking-tighter font-semibold">Numero Card:</h2>
                 <p class="font-bold text-center sm:text-left">{{ cardNumber }}</p>
                 <div class="flex flex-row gap-2 text-lg tracking-tighter">
@@ -75,7 +75,7 @@
               euro.
             <a href="#" class="underline leading-3  ">Scopri di piú</a></p>
           </div>
-          <div class="flex flex-row mt-5">
+          <div class="flex flex-row my-5">
             <input type="text" :value="link" readonly
               class="border border-1 px-8 py-3 rounded-l-md font-light text-lg text-gray-300">
             <button @click="copyLink" class="bg-[#E82770] p-3 rounded-2xl rounded-l-none "><svg class="h-6 w-6 text-white" width="24"
