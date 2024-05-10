@@ -3,31 +3,43 @@
         <Navbar />
     </nav>
     <figure class="relative max-w-screen-2xl mx-auto top-10 ">
-        <img class="rounded-3xl w-full md:h-auto md:object-cover  object-none object-left  h-96 md:shrink-0" style="object-position: 15% 30%;" src="/assets/vipclub-pic.png" alt="image description">
-        <figcaption class="absolute flex flex-col mt-5 gap-12 w-2/5  right-5 top-1/2 transform -translate-y-1/2">
+        <img class="rounded-3xl w-full md:h-auto md:object-cover  object-none object-left  h-96 md:shrink-0" style="object-position: 25% 30%;" src="/assets/vipclub-pic.png" alt="image description">
+        <figcaption class="absolute flex flex-col mt-5 gap-12 md:w-2/5 w-4/5 right-5 top-1/2 transform -translate-y-1/2">
             <div class="space-y-4">
-                <h1 class="md:text-[52px] text-lg font-sans leading-none text-[#E82770] font-[650] w-3/4">Entra nel VIP club di
+                <h1 style="text-align-last: center;" class="md:text-[52px] text-4xl font-semibold md:font-sans leading-none text-white  md:text-[#E82770] md:font-[650] w-full">Entra nel VIP club di
                     Prénatal</h1>
-                <h3 class=" text-[22px] leading-tight font-semibold text-gray-600">12 mesi di sconti esclusivi</h3>
+                <h3 class=" md:text-[22px] leading-tight font-semibold text-white md:text-gray-600"style="text-align-last: center;">12 mesi di sconti esclusivi</h3>
             </div>
             <div class="flex md:flex-row flex-col gap-5">
-                <a href="#" class="md:px-9 py-3 md:w-72 rounded-full text-center text-white text-lg px-6 w-72 md:text-xl bg-[#E82770]"
+                <a href="#" class=" py-3 md:w-72 rounded-full text-center text-white text-lg px-6 w-60 self-center md:text-xl bg-[#E82770]"
                     type="button">ACQUISTA VIP CARD</a>
-                <a href="#" class="px-9 py-3  w-52 rounded-full text-center text-white text-xl bg-[#E82770]"
+                <a href="#"  class="px-9 py-3  w-44 rounded-full text-center text-white text-xl bg-[#E82770] self-center" 
                     type="button">RINNOVALA</a>
             </div>
         </figcaption>
     </figure>
-    <div class="relative z-20 mx-auto flex max-w-screen-2xl justify-between p-8 ">
-        <div class="teardrop md:w-1/5 w-32 md:flex flex-col text-center md:text-3xl translate-y-20">
-            <h3>A PARTIRE DAL</h3><span class="md:text-6xl text-3xl font-semibold">-30%</span>
-        </div>
-        <div class="translate-y-20 w-2/5 flex md:flex-col flex-row gap-6">
-            <h1 class="text-[#E82770] md:text-5xl text-xl font-semibold">Su tutto l'abbigliamento e il tesile letto a marchio
-                Prénatal. </h1>
-            <h2 class="font-normal tracking-tight text-2xl">Sconti a partire dal 10% sui marchi Nike, Adidas, Nike
-                Jordan, Vans, Converse, New Era e Puma</h2>
-        </div>
+    <div class="relative z-20 mx-auto flex md:flex-row flex-col max-w-screen-2xl justify-between p-8">
+
+    <div class="teardrop md:w-1/5 w-32 flex flex-col text-center md:text-3xl translate-y-20">
+        <h3>A PARTIRE DAL</h3>
+        <span class="md:text-6xl text-3xl font-semibold">-30%</span>
+    </div>
+    <div class="translate-y-20 md:w-2/5 md:flex md:flex-col md:items-start gap-6">
+        <h1 class="text-[#E82770] md:text-5xl text-xl font-semibold">
+            Su tutto l'abbigliamento e il tessile letto a marchio Prénatal.
+        </h1>
+        <h2 class="font-normal tracking-tight flex w-3/4 text-2xl">Sconti a partire dal 10% sui marchi Nike, Adidas, Nike
+            Jordan, Vans, Converse, New Era e Puma</h2>
+    </div>
+
+
+
+
+
+
+    
+
+
         <div class="border-3xl shadow-lg bg-white rounded-2xl p-2  md:w-2/5 -translate-y-8">
             <div class="flex flex-row -space-x-9 text-[#227098] justify-center">
                 <div class="">

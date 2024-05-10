@@ -196,7 +196,7 @@
 
       </div>
       <a href="#" type="button"
-        class="bg-[#e72b6f]  text-white py-4 w-48 mx-auto rounded-full text-center font-medium  mt-24">SCOPRI
+        class="bg-[#e72b6f]  text-white py-4 w-full md:w-48 mx-auto rounded-full text-center font-medium  mt-24">SCOPRI
         DI PIÙ</a>
 
     </div>
