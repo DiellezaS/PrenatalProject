@@ -2,7 +2,7 @@
 <template>
 
     <Navbar/>
-    <div :class="{ 'shadow-gray': showAlert }" class="max-w-screen-2xl mx-auto flex flex-col mt-16">
+    <div :class="{ 'shadow-gray': showAlert }" class="max-w-screen-xl mx-auto flex flex-col mt-16">
         <div class="md:flex flex-row gap-12 mx-auto">
         <div class="w-1/4">
             <LaTuaCard/>
@@ -53,7 +53,7 @@
         <div class="">
         
             <div v-if="showAlert" class="alert">
-              <button class="close-btn" @click="closeAlert">
+              <button class="close-btn md:right-8 right-20" @click="closeAlert">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="14" height="16" viewBox="0 0 256 256" xml:space="preserve">
         
         <defs>
@@ -65,10 +65,10 @@
         </svg>
             </button>
             <div class="flex items-center p-9">
-                <div class="rounded-full w-80 h-32 bg-[#f7f7f7]">
-                  <img src="assets/clubCard.png" alt="Photo" class="w-28 h-auto rounded-xl -rotate-12 mt-7 mx-4 p-2">
+                <div class="rounded-full md:w-80 w-44 h-24 md:h-32 bg-[#f7f7f7]">
+                  <img src="assets/clubCard.png" alt="Photo" class="md:w-28 w-28 h-auto rounded-xl -rotate-12 md:mt-7 mt-4 md:mx-4 px-2 p-2">
                 </div>
-                <h1 class="ml-6 text-[#435d87] font-semibold text-3xl ">{{ alertText }}</h1>
+                <h1 class="ml-6 text-[#435d87] font-semibold md:text-3xl text-xl ">{{ alertText }}</h1>
               </div>
               <button class="btn m-8 rounded-3xl text-xl" @click="submit">ACQUISTA VIP CARD</button>
             </div>
@@ -106,13 +106,15 @@
           border-radius: 20px;
           padding: 20px;
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-          width: 650px; 
-          height: 350px;
+          max-width: 650px; 
+          width: 110vw;
+          max-height: 350px;
+          height: 100vw;
           z-index: 999;
         }
         .close-btn {
           position: absolute;
-          right: 20px;
+        
           background-color: transparent;
           border: none;
           cursor: pointer;
@@ -126,7 +128,8 @@
           color: #fff;
           border: none;
           cursor: pointer;
-          width: 550px;
+          max-width: 550px;
+          width: 80vw;
         }
         
         .overlay {

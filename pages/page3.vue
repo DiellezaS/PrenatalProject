@@ -1,16 +1,16 @@
 <template>
     <Navbar />
-    <div class="max-w-screen-2xl md:mx-auto flex flex-col mt-16">
+    <div class="max-w-screen-xl md:mx-auto flex flex-col mt-16">
         <div class="md:flex flex-row gap-7 mx-auto ">
         <div class="w-1/4">
           <LaTuaCard/>
         </div>
         <div class="md:flex flex-col gap-5 w-full ">
-    <div class="bg-[#eaf1fd] px-6 pt-5 pb-16 rounded-3xl">
-        <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5 text-center sm:text-left">La tua Fidelity Card</h1>
+    <div class="bg-[#eaf1fd] md:px-6 p-4 pt-5 pb-16 rounded-3xl">
+        <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5 md:text-center sm:text-left">La tua Fidelity Card</h1>
         <div class="flex flex-col md:flex-row items-center gap-6">
-            <div class="flex justify-center sm:justify-start">
-                <img src="assets\vip_card.png" class="rounded-xl w-auto h-64" alt="Prenatal Card">
+            <div class="flex md:justify-center ">
+                <img src="assets\vip_card.png" class="rounded-xl w-auto md:h-64 h-40" alt="Prenatal Card">
             </div>
             <div class="flex flex-col gap-2 w-full md:w-1/2">
                 <h2 class="text-[#E73B7A] text-lg tracking-tighter font-semibold">Numero Card:</h2>

@@ -5,12 +5,12 @@
         </nav>
 
         <body>
-            <figure class=" relative max-w-screen-2xl mx-auto right-0 place-self-center grid">
+            <figure class=" relative max-w-screen-xl mx-auto right-0 place-self-center grid">
 
                 <img src="assets\index.jpg" alt="image description" class="rounded-3xl">
 
 
-                <figcaption class="absolute px-4 text-lg text-white  w-1/3 right-40 bottom-40 space-y-3">
+                <figcaption class="absolute px-4 text-lg text-white  w-1/3 right-40 bottom-40">
                     <h1 class="text-4xl font-bold font-sans subpixel-antialiased w-2/3">Entra nel club di Prenatal</h1>
                     <p>Registrati gratuitamente per un mondo di promozioni dedicate, o acquista una VIP Card per
                         accedere a tutti i vantaggi aggiuntivi.</p>
@@ -26,7 +26,7 @@
           
 
 
-            <div class="container mx-auto  max-w-screen-2xl">
+            <div class="container mx-auto  max-w-screen-xl">
 
                 <div class="grid grid-cols-1 md:grid-cols-3 p-24 ">
                     <div class="bg-white rounded-lg  m-8">
@@ -318,7 +318,7 @@
 <VipReasons/>
             
 
-    <figure class=" relative max-w-screen-2xl mx-auto right-0 place-self-center grid mb-10 mt-20">
+    <figure class=" relative max-w-screen-xl mx-auto right-0 place-self-center grid mb-10 mt-20">
       <img src="assets\download.jpg" alt="image" class="rounded-3xl">
       <figcaption class="absolute px-4 grid grid-col gap-5 text-lg font-normal font-serif w-2/5 translate-y-16 right-60 p-6">
         <h1 class=" text-4xl font-bold  text-[#E82770]">Parental Skills at Work</h1>
@@ -348,7 +348,7 @@
             <HappyBox />
 
 
-            <div class="relative max-w-screen-2xl mx-auto p-4 mb-16">
+            <div class="relative max-w-screen-xl mx-auto p-4 mb-16">
                 
                 <h1 class=" text-[#e72b6f] text-3xl text-start font-semibold ">Altri vantaggi esclusivi</h1>
                 <div class="flex flex-row justify-between ">

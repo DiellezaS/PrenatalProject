@@ -1,7 +1,7 @@
 <template>
     
     <Navbar />
-       <div class="max-w-screen-2xl mx-auto flex flex-col mt-16">
+       <div class="max-w-screen-xl mx-auto flex flex-col mt-16">
            <div class="flex mx-auto gap-14">
                <div class="w-1/4">
                    <LaTuaCard />

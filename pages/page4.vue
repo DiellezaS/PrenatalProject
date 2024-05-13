@@ -1,7 +1,7 @@
 <template>
     <div class="md:flex flex-col gap-16">
     <Navbar/>
-    <div class="max-w-screen-2xl mx-auto mb-10">
+    <div class="max-w-screen-xl mx-auto mb-10">
 <div class="md:flex flex-row gap-9">
     <div class=""><LaTuaCard/></div>
     <div class="flex flex-col mt-10">

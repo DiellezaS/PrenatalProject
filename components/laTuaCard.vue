@@ -73,7 +73,7 @@ export default defineComponent({
       this.isDropdownOpen = !this.isDropdownOpen;
     },
     checkIfMobile() {
-      this.isMobile = window.innerWidth <= 1300;
+      this.isMobile = window.innerWidth <= 900;
     }
   },
   mounted() {

@@ -4,17 +4,17 @@
     <nav>
         <Navbar />
     </nav>
-    <div class="max-w-screen-2xl mx-auto flex mt-16">
+    <div class="max-w-screen-xl mx-auto flex mt-16 gap-6">
         <LaTuaCard />
         <div class=" w-3/4 mx-auto mb-10 mt-16 flex flex-col gap-5">
             <figure class="relative -translate-y-16">
                 <img class="rounded-3xl relative sm:w-full md:h-[600px] opacity-85" src="/assets/invita.png"
                     alt="image description">
                 <figcaption class="absolute flex flex-col space-y-5 top-24 w-[46%] transform translate-x-[97%]">
-                    <h1 class="text-[44px] leading-10 font-medium float-right text-[#E82770]">Invita un amico ad unirsi
+                    <h1 class="text-[34px] leading-10 font-medium float-right text-[#E82770]">Invita un amico ad unirsi
                         al
                         nostro Fidelity Club</h1>
-                    <p class="text-2xl leading-7 tracking-tight w-[90%]">Per ogni amico che sottoscrive la nostra Carta
+                    <p class="md:text-xl text-lg leading-4 tracking-tighter w-[90%]">Per ogni amico che sottoscrive la nostra Carta
                         Fedeltà per te uno sconto speciale di 10euro. Puoi farlo condividendo il link sottostante con
                         lui/lei.</p>
                     <div class="flex flex-row p-1">
