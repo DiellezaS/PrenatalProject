@@ -1,16 +1,16 @@
 <template>
     
     <Navbar />
-       <div class="max-w-screen-xl mx-auto flex flex-col mt-16">
-           <div class="flex mx-auto gap-14">
+       <div class="max-w-screen-xl mx-auto md:flex flex-col mt-16">
+           <div class="md:flex mx-auto gap-14">
                <div class="w-1/4">
                    <LaTuaCard />
                </div>
    
                <div class="w-full my-6 rounded-3xl text-xl">
-                   <h1 class="text-[#e72b6f] text-4xl  font-semibold my-8">I tuoi dati</h1>
+                   <h1 class="text-[#e72b6f] md:text-4xl text-2xl px-4 font-semibold my-6">I tuoi dati</h1>
                    
-                   <div class="bg-[#f7f7f7] w-full rounded-3xl height">
+                   <div class="bg-[#f7f7f7] w-full rounded-3xl md:h-[370px] ">
                        <div class="grid gap-6 mb-5 md:grid-cols-2 p-12 form-floating">
                            <div class="relative z-0 text-gray-700 w-full mb-4 group bg-white">
                                <input type="text" name="floating_name" id="floating_name" class="bg-gray-50 block p-4 text-sm rounded-lg w-full bg-transparent border-2 border-gray-300 dark:bg-gray-50 text-gray-800 dark:placeholder-gray-50 dark:text-white peer" placeholder=" " required />
@@ -50,6 +50,7 @@
    </div>
    <div></div>
    
+   
      <div class="flex text-lg -translate-y-8">
         <span>
      <svg viewBox="-0.5 0 25 25" fill="none" width="40px" height="30px" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier">
@@ -69,23 +70,23 @@
               17.23 11.8079 17.2119 11.723 17.1767C11.6381 17.1415 11.5609 17.09 11.4959 17.025C11.4309
                16.96 11.3793 16.8828 11.3442 16.7979C11.309 16.713 11.2909 16.622 11.2909 16.5301Z" fill="#e72b6f">
            </path> </g></svg></span>
-         <p class="text-[#e72b6f] font-medium">Perché è importante?</p>
+         <p class="text-[#e72b6f] font-medium leading-5">Perché è importante?</p>
        </div>
        
        <div></div>
    
-       <div class="-translate-y-16 text-lg text-gray-800 mx-10">  <p >Riceverai le nostre promazioni più importanti via SMS</p></div>
+       <div class="md:-translate-y-16 -translate-y-20 text-lg leading-5 text-gray-800 mx-10">  <p >Riceverai le nostre promazioni più importanti via SMS</p></div>
        </div>
    
       
             </div>
    
             <div class=" ">
-                <h1 class="text-[#E72B6F] text-4xl font-semibold my-16">La tua famiglia</h1>
-       <div class="w-full h-64 bg-[#f7f7f7] flex flex-col justify-center items-center rounded-3xl">
-           <div class="flex flex-col w-3/4 space-x-12">
-               <a href="#" type="button" class="bg-[#E72B6F] mx-auto py-4 w-4/5 text-center text-xl text-white rounded-full">+ AGGIUNGI FIGLIO</a>
-              <div class="flex flex-row translate-y-10 translate-x-6">
+                <h1 class="text-[#E72B6F] md:text-4xl text-2xl px-4 font-semibold my-4 md:my-16">La tua famiglia</h1>
+       <div class="w-full md:h-64 bg-[#f7f7f7] flex flex-col justify-center items-center rounded-3xl p-3">
+           <div class="flex flex-col md:w-[80%] w-full md:space-x-12  ">
+               <a href="#" type="button" class="bg-[#E72B6F] mx-auto md:py-4 py-3 my-5 w-full text-center text-xl text-white rounded-full">+ AGGIUNGI FIGLIO</a>
+              <div class="flex flex-row translate-y-10 md:translate-x-6 ">
                  <span >  <svg viewBox="-0.5 0 25 25" fill="none" width="40px" height="30px" xmlns="http://www.w3.org/2000/svg">
                        <g id="SVGRepo_bgCarrier" stroke-width="2"></g>
                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -95,16 +96,16 @@
                        </g>
                    </svg></span></div>
         
-            <div>
-               <p class="text-[#e72b6f] ml-16 font-medium ">Perché è importante?</p>
-               <p class="ml-16 text-lg font-normal leading-normal w-4/5">Lasciandoci i dati dei tuoi figli potremo offrirti un servizio sempre migliore e personalizzato sulle tue esigenze di genitore in più invieremo una sorpresa in occasione del loro compleanno.</p>
+            <div >
+               <p class="text-[#e72b6f] md:ml-16 ml-10 font-medium ">Perché è importante?</p>
+               <p class="md:ml-16 ml-10 md:text-lg text-base font-normal leading-6 w-4/5">Lasciandoci i dati dei tuoi figli potremo offrirti un servizio sempre migliore e personalizzato sulle tue esigenze di genitore in più invieremo una sorpresa in occasione del loro compleanno.</p>
            </div>
         </div>
        </div>
    </div>
    
            <div>
-            <h2 class="text-[#E72B6F] text-3xl font-semibold my-8">La tua famiglia si sta allargando?</h2>
+            <h2 class="text-[#E72B6F] md:text-3xl text-2xl font-semibold px-4 my-8">La tua famiglia si sta allargando?</h2>
 
 <div class="relative max-w-sm">
    
@@ -118,7 +119,7 @@
 
 
        <div>
-        <h1 class="text-[#E72B6F] text-4xl font-semibold mt-8">Dati aggiuntivi</h1>
+        <h1 class="text-[#E72B6F] md:text-3xl text-2xl font-semibold px-4 mt-8">Dati aggiuntivi</h1>
         <div class="bg-[#f7f7f7] w-full rounded-3xl">
                       
                         <div class="mt-8 grid gap-x-6 gap-y-2 sm:grid-cols-4 p-8">
@@ -166,44 +167,63 @@
 </div>
 
 <div class="flex flex-col gap-6 mt-12">
-    <h1 class="text-[#E72B6F] text-4xl font-semibold my-8">I tuoi consensi</h1>
+    <h1 class="text-[#E72B6F] md:text-4xl text-2xl font-semibold px-4 my-8">I tuoi consensi</h1>
+
 
     <div class="bg-[#f7f7f7] w-full rounded-3xl p-8">
-       <div class="flex">
-        <label class=" items-center  cursor-pointer ">
-  <input type="checkbox" value="" class="sr-only peer" checked>
-  <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
-</label>
-            <h2 class="text-[#E72B6F] text-2xl font-medium  mx-10">VUOI RICEVERE LE NOSTRE COMUNICAZIONI?</h2>
+  
+    <div class="hidden md:flex flex-row items-center"> 
+        <label class="cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+        </label>
+        <h2 class="text-[#E72B6F] text-2xl font-medium ml-4">VUOI RICEVERE LE NOSTRE COMUNICAZIONI?</h2>
     </div>
-   
-        <div class="mx-20 my-4 font-light tracking-tighter leading-tight">
+
+    <div class="md:hidden flex flex-col items-start">
+        <h2 class="text-[#E72B6F] text-2xl font-medium mt-4">VUOI RICEVERE LE NOSTRE COMUNICAZIONI?</h2>
+    </div>
+
+    <div class="md:mx-20 md:my-4 font-light tracking-tighter leading-tight">
         <p>Acconsento a essere contattato/a dalla Società tramite posta ordinaria, email e/o notifiche push, SMS e/o MMS e/ o applicazioni mobili di messaggistica per la promozione di prodotti, servizi, distribuzione di materiale a carattere informativo, pubblicitario e promozionale, eventi, invio di newsletter e pubblicazioni (Articolo 1, lettera d) dell'Informativa privacy. (opzionale)</p>
         <p class="text-[#fa3541] mt-2 font-medium">Senza il tuo consenso non potremo inviarti le nostre offerte.</p>
-        </div>
     </div>
+
+
+    <label class="cursor-pointer md:hidden flex py-6">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+        </label>
+</div>
 
 
     <div class="bg-[#f7f7f7] w-full rounded-3xl p-8 ">
-    <div class="flex">
-        <label class=" items-center  cursor-pointer ">
+    <div class="hidden md:flex flex-row">
+        <label class=" cursor-pointer ">
   <input type="checkbox" value="" class="sr-only peer" checked>
   <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-6 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
 </label>
-
         <h2 class="text-[#E72B6F] text-2xl font-medium mx-10">VUOI RICEVERE OFFERTE PERSONALIZZATE?</h2>
     </div>
    
-        <div class="mx-20 my-4 font-light tracking-tight leading-tight">
+    <div class="md:hidden flex flex-col items-start">
+        <h2 class="text-[#E72B6F] text-2xl font-medium mt-4">VUOI RICEVERE OFFERTE PERSONALIZZATE?</h2>
+    </div>
+        <div class="md:mx-20 md:my-4 font-light tracking-tight leading-tight">
         <p>Acconsento affinché la Società possa svolgere analisi - attraverso un processo automatizzato - volte a determinare il profilo dell'Interessato per adeguare le attività di marketing alle esigenze dell'Interessato (Articolo 1, lettera e) dell'Informativa privacy. (opzionale)</p>
         <p class="text-[#fa3541] mt-2 font-medium">Non potrai ricevere offerte esclusive e personalizzate.</p>
         </div>
+
+        <label class="cursor-pointer md:hidden flex py-6">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+        </label>
    </div>
 
 
 
    <div class="bg-[#f7f7f7] w-full rounded-3xl p-8">
-       <div class="flex">
+       <div class="hidden md:flex">
         <label class=" items-center  cursor-pointer ">
   <input type="checkbox" value="" class="sr-only peer" checked>
   <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
@@ -211,27 +231,42 @@
             <h2 class="text-[#E72B6F] text-2xl font-medium mx-10">POSSIAMO CHIEDERE LA TUA OPINIONE CON I NOSTRI SONDAGGI?</h2>
     </div>
    
-        <div class="mx-20 my-4 font-light tracking-tighter">
+    <div class="md:hidden flex flex-col items-start">
+        <h2 class="text-[#E72B6F] text-2xl font-medium mt-4">POSSIAMO CHIEDERE LA TUA OPINIONE CON I NOSTRI SONDAGGI?</h2>
+    </div>
+
+        <div class="md:mx-20 md:my-4 font-light tracking-tighter">
         <p>Acconsento a essere contattato dalla Società o da società da questa incaricate (anche tramite chiamata di un operatore) per lo svolgimento di analisi e ricerche di mercato, anche in relazione al grado di soddisfazione dell'Interessato (Articolo 1, lettera f) dell'Informativa privacy. (opzionale)</p>
     
         </div>
+        <label class="cursor-pointer md:hidden flex py-6">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+        </label>
     </div>
 
 
     <div class="bg-[#f7f7f7] w-full rounded-3xl p-8 ">
-    <div class="flex">
+    <div class="hidden md:flex">
         <label class=" items-center  cursor-pointer ">
   <input type="checkbox" value="" class="sr-only peer" checked>
   <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
 </label>
-
-        <h2 class="text-[#E72B6F] text-2xl font-medium mx-10 tracking-tight">POSSIAMO CONDIVIDERE I TUOI DATI CON ALTRE SOCIETÀ DEL NOSTRO GRUPPO?</h2>
+            <h2 class="text-[#E72B6F] text-2xl font-medium mx-10 tracking-tight">POSSIAMO CONDIVIDERE I TUOI DATI CON ALTRE SOCIETÀ DEL NOSTRO GRUPPO?</h2>
     </div>
    
-        <div class="mx-20 my-4 font-light tracking-tighter">
+
+    <div class="md:hidden flex flex-col items-start">
+        <h2 class="text-[#E72B6F] text-2xl font-medium mt-4">POSSIAMO CONDIVIDERE I TUOI DATI CON ALTRE SOCIETÀ DEL NOSTRO GRUPPO?</h2>
+    </div>
+        <div class="md:mx-20 md:my-4 font-light tracking-tighter">
         <p>Acconsento alla comunicazione dei dati da parte della Società ad altre società appartenenti al medesimo gruppo a cui appartiene la Società e/o a soggetti terzi per il perseguimento delle finalità per le quali ho prestato il mio consenso al Titolare. (opzionale)</p>
 
         </div>
+        <label class="cursor-pointer md:hidden flex py-6">
+            <input type="checkbox" value="" class="sr-only peer" checked>
+            <div class="relative w-11 h-6 bg-gray-200 rounded-full peer dark:bg-gray-700 peer-focus:ring-4 peer-focus:ring-orange-300 dark:peer-focus:ring-orange-600 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full rotate-180 peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-orange-500"></div>
+        </label>
    </div>
 
    </div>

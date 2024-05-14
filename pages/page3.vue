@@ -1,16 +1,16 @@
 <template>
     <Navbar />
-    <div class="max-w-screen-xl md:mx-auto flex flex-col mt-16">
+    <div class="max-w-screen-2xl md:mx-auto flex flex-col mt-16">
         <div class="md:flex flex-row gap-7 mx-auto ">
         <div class="w-1/4">
           <LaTuaCard/>
         </div>
-        <div class="md:flex flex-col gap-5 w-full ">
+        <div class="md:flex flex-col gap-5 lg:w-full sm:w-2/5">
     <div class="bg-[#eaf1fd] md:px-6 p-4 pt-5 pb-16 rounded-3xl">
-        <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5 md:text-center sm:text-left">La tua Fidelity Card</h1>
-        <div class="flex flex-col md:flex-row items-center gap-6">
+        <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5  sm:text-left">La tua Fidelity Card</h1>
+        <div class="flex flex-col md:flex-row lg:items-center sm:items-start gap-6">
             <div class="flex md:justify-center ">
-                <img src="assets\vip_card.png" class="rounded-xl w-auto md:h-64 h-40" alt="Prenatal Card">
+                <img src="assets\vip_card.png" class="rounded-xl w-auto md:h-56 h-40" alt="Prenatal Card">
             </div>
             <div class="flex flex-col gap-2 w-full md:w-1/2">
                 <h2 class="text-[#E73B7A] text-lg tracking-tighter font-semibold">Numero Card:</h2>
@@ -37,9 +37,11 @@
             </div>
         </div>
     </div>
-<Dati/>
+    
+<div><Dati class="hidden md:flex"/></div>
                 
             </div>
+            
             <div class="grid grid-col gap-5 md:w-1/4 w-1/5">
                 <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-10 pt-24">
                     <img src="assets\parental_skills.png" alt="Parental Skills"
@@ -67,7 +69,16 @@
                     <button class="z-10 bg-[#E82770] text-white text-xl rounded-3xl py-3 w-2/3 self-center">ACCEDI
                         GRATIS</button>
                 </article>
+
+
+
+
                 <profileCompletato />
+
+
+                <div><Dati class="md:hidden flex"/></div>
+
+
                 <div class="grid grid-col px-9 py-9 rounded-3xl border border-gray-300">
           <h1 class="text-[#E82770] text-2xl font-semibold my-3">Invita un amico</h1>
           <div>

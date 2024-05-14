@@ -2,12 +2,12 @@
 
   <Navbar />
 
-  <div class="max-w-screen-xl md:mx-auto flex flex-col mt-16">
+  <div class="max-w-screen-2xl md:mx-auto flex flex-col mt-16">
     <div class="md:flex flex-row mx-auto gap-6">
       <div>
         <LaTuaCard />
       </div>
-      <div class="md:flex flex-col gap-6 md:w-full">
+      <div class="md:flex flex-col gap-6 md:w-full  m-6">
         <div class="bg-[#F9ECED] px-6 pt-5 pb-24 rounded-3xl">
         <h1 class="text-[#E73B7A] text-2xl font-bold tracking-tighter py-5">La tua Card</h1>
         <div class=" flex md:flex-row flex-col gap-6">
@@ -22,7 +22,7 @@
         </div>
         </div>
       </div>
-        <Dati />
+        <Dati class="hidden md:flex"/>
       </div>
 
       <div class="grid grid-col gap-7 w-1/4">
@@ -47,6 +47,10 @@
         
         </div>
         <profileCompletato />
+
+        <Dati class="md:hidden flex "/>
+
+        
         <div class="grid grid-col px-9 pt-4 rounded-3xl border border-gray-300 gap-6">
           <h1 class="text-[#E82770] text-2xl font-semibold">Invita un amico</h1>
           <div>
