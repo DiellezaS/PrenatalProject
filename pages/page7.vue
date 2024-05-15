@@ -19,8 +19,7 @@
         </figcaption>
     </figure>
 
-
-    <figure class="md:hidden flex relative max-w-screen-xl mx-auto top-10 ">
+<figure class="md:hidden flex relative max-w-screen-xl mx-auto top-10 p-4 ">
         <img class="rounded-3xl w-full md:h-auto object-cover object-top  h-96" src="/assets\page_cleanup.png" alt="image description">
         <figcaption class="absolute flex flex-col mt-6 gap-12 md:w-2/5 w-4/5 right-5 top-1/3 transform -translate-y-16">
             <div>
@@ -36,7 +35,7 @@
             </div>
         </figcaption>
     </figure>
-    <div class="relative z-20 mx-auto flex-col flex md:flex-row max-w-screen-xl justify-between md:p-6">
+    <div class="relative z-20 mx-auto flex-col flex md:flex-row max-w-screen-xl justify-between md:p-6 p-4">
     <div class="flex flex-row">
         <div class="teardrop md:w-1/5 flex flex-col text-center md:text-2xl sm:text-lg translate-y-20">
             <h3>A PARTIRE DAL</h3>
@@ -47,17 +46,13 @@
             <div class="flex flex-col md:flex-row items-start">
                 <h1 class="text-[#E82770] md:text-4xl px-4 text-xl font-bold">Su tutto l'abbigliamento e il tessile letto a marchio Prénatal.</h1>
             </div>
-            <h2 class="hidden md:block font-normal tracking-tight w-4/5 text-lg lg:text-xl mt-24 md:mt-0">Sconti a partire dal 10% sui marchi Nike, Adidas, Nike Jordan, Vans, Converse, New Era e Puma</h2>
+            <h2 class="hidden md:block font-normal mx-5 tracking-tight w-4/5 text-lg lg:text-xl mt-24 md:mt-0">Sconti a partire dal 10% sui marchi Nike, Adidas, Nike Jordan, Vans, Converse, New Era e Puma</h2>
         </div>
     </div>
     <h2 class="md:hidden font-normal tracking-tight w-full text-lg lg:text-2xl mt-24 md:mt-0">Sconti a partire dal 10% sui marchi Nike, Adidas, Nike Jordan, Vans, Converse, New Era e Puma</h2>
 
-
-    
-
-
-        <div class="border-3xl shadow-lg bg-white rounded-2xl  min-w-fit md:w-2/5 lg:-translate-y-8 translate-y-4 ">
-            <div class="flex flex-row -space-x-9 text-[#227098] justify-center items-center">
+        <div class="border-3xl shadow-lg bg-white rounded-2xl  min-w-fit  md:min-w-fit lg:-translate-y-10 translate-y-4 ">
+            <div class="flex flex-row -space-x-9 text-[#227098] justify-center items-center ">
                 <div class="">
                     <h1 class="md:text-6xl text-4xl font-extrabold ">VIP CLUB</h1>
                     <div class="flex flex-row justify-end -space-x-7 mr-1">
@@ -69,7 +64,7 @@
                         </svg>
                     </div>
                 </div>
-                <h3 class="inline-block logo text-[#227098] px-3 py-3 mt-7" title="Prénatal">
+                <h3 class="inline-block logo text-[#227098] px-3 py-3 mt-2" title="Prénatal">
                     <svg width="410" height="75" viewBox="0 0 410 79" data-logo-icon="data-logo-icon"
                         class="block h-4 w-auto sm:h-3 -rotate-90" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -105,7 +100,7 @@
                             </svg>
                         </h3>
             </div>
-            <table class="table table-auto bg-[#F7F7F7] mt-5 md:min-w-full min-w-fit">
+            <table class="table table-auto bg-[#F7F7F7] mt-5 md:min-w-fit ">
                 <thead class="text-left text-lg">
                     <tr class="">
                         <th class="font-normal p-3">ARTICOLO</th>
@@ -148,7 +143,7 @@
                 </tbody>
                 <tfoot class="bg-[#E4E6E4]">
                     <tr>
-                        <td colspan="2" class=" px-3 py-6 text-lg pr- font-bold">TOTALE SCONTRINO VIP CLUB</td>
+                        <td colspan="2" class=" px-3 py-4 text-lg pr- font-bold">TOTALE SCONTRINO VIP CLUB</td>
                         <td class="line-through text-center ">€103.95</td>
                         <td class="text-[#227098] text-center font-bold">€72.75</td>
                     </tr>
@@ -160,8 +155,9 @@
             </div>
         </div>
     </div>
-    <div class="bg-[#005C8C] text-white md:p-10  max-w-screen-xl mx-auto rounded-3xl md:-translate-y-44 m-4 ">
-        <h1 class="md:w-1/2 w-full text-2xl text-center md:text-5xl pt-12 px-3">SCONTI IMPERDIBILI SU UNA SELEZIONE SI PANNOLINI</h1>
+    <div class="py-10 px-4">
+    <div class="bg-[#005C8C] text-white md:p-10  max-w-screen-xl mx-auto rounded-3xl md:-translate-y-60 m-4 ">
+        <h1 class="md:w-1/2 w-full text-2xl text-start md:text-4xl  p-3 ">SCONTI IMPERDIBILI SU UNA SELEZIONE SI PANNOLINI</h1>
 
 
         <div class="flex flex-wrap">
@@ -187,14 +183,14 @@
 
 
 
-        <h3 class=" hidden md:flex text-center font-light">L'offerta Vip Card sui Pannolini è soggetta a cambiamenti in base alle
+        <h3 class=" hidden md:flex md:text-center md:justify-center mx-auto font-light">L'offerta Vip Card sui Pannolini è soggetta a cambiamenti in base alle
             condizioni di listino in corso.</h3>
 
-
+</div>
     </div>
 
-
-    <VipReasons/>
+<div><VipReasons/></div>
+    
 
 
     <figure class="hidden md:flex relative max-w-screen-xl mx-auto mb-10  ">
@@ -209,40 +205,40 @@
     </figure>
 
 
-    <figure class="md:hidden flex relative max-w-screen-xl mx-auto mb-10  ">
+    <figure class="md:hidden flex relative max-w-screen-xl mx-auto mb-10 p-4">
         <img class="rounded-3xl relative object-cover object-top" src="assets\testt_cleanup.png" alt="image description">
         <figcaption class="absolute translate-x-4 translate-y-[180%] top-24 sm:top-0">
             <h1 class=" text-2xl text-leading-12 font-bold  text-[#E82770]">Regala una VIP Card</h1>
-            <p class="text-lg md:font-normal tracking-tighter leading-tight py-4">Da oggi puoi regalare la Vip Card a chi ami, in negozio o
+            <p class="text-lg md:font-normal tracking-tighter px-4 w-[80%] leading-tight py-4">Da oggi puoi regalare la Vip Card a chi ami, in negozio o
                 online</p>
             <a href="#" class="py-3 px-6 lg:w-[60%] w-1/3 rounded-full text-center text-white  sm:text-xl md:text-xl bg-[#E82770]"
                 type="button">ACQUISTALA SUBITO</a>
         </figcaption>
     </figure>
 
-
-    <div class="bg-[#EAF1FD] md:flex flex-col max-w-screen-xl mx-auto md:p-20 p-8 rounded-3xl space-y-16">
+<div class="p-4">
+    <div class="bg-[#EAF1FD] md:flex flex-col max-w-screen-xl mx-auto md:p-20 p-8 rounded-3xl space-y-16 ">
         <div class="space-y-4">
-            <h1 class="text-[#3E5884] tracking-tighter text-2xl md:text-[44px] text-center  w-full lg:text-start font-bold">Come faccio ad avere la Prénatal VIP Card?</h1>
+            <h1 class="text-[#3E5884] tracking-tighter text-2xl md:text-[32px] text-center  w-full lg:text-start font-bold">Come faccio ad avere la Prénatal VIP Card?</h1>
             <p  class="md:text-2xl text-lg  leading-6 font-normal text-center  lg:text-start tracking-tighter">Ottenere la Prénatal VIP Card è semplicissimo: leggi il regolamento, compila il modulo in negozio ed effettua un versamento di 30 euro, oppure acquistala online cliccando sul bottone qui sotto. Dal momento dell'acquisto, ci vorranno 24/48 ore per poterla utilizzare!</p>
         </div>
         <div class="space-y-4">
-            <h1 class="text-[#3E5884]   text-2xl md:text-[44px] text-center  lg:text-start font-bold">Quali sono i vantaggi della Prénatal VIP Card?</h1>
+            <h1 class="text-[#3E5884]   text-2xl md:text-[32px] text-center  lg:text-start font-bold">Quali sono i vantaggi della Prénatal VIP Card?</h1>
             <p class="md:text-2xl text-lg leading-6 font-normal text-center  lg:text-start tracking-tight">Con la Prénatal VIP Card godrai di uno sconto almeno del 30% in negozio e online su tutti i capi della collezione tessile per la futura mamma e i bambini da 0 a 8 anni, compresi intimo, pigiami, tessile letto e calzature a marchio Prénatal. In più per i membri del VIP club le consegne a domicilio degli acquisti online sono gratis!</p>
         </div>
         <div class="space-y-4">
-            <h1 class="text-[#3E5884]  text-2xl md:text-[44px] font-bold text-center  lg:text-start">Che durata avrà la mia Prénatal VIP Card?</h1>
+            <h1 class="text-[#3E5884]  text-2xl md:text-[32px] font-bold text-center  lg:text-start">Che durata avrà la mia Prénatal VIP Card?</h1>
             <p class="md:text-2xl text-lg leading-6 font-normal text-center  lg:text-start tracking-tight">I vantaggi della VIP Card 12 mesi dal giorno della tua iscrizione. Puoi recedere in qualsiasi momento dandone comunicazione scritta.</p>
         </div>
         <div class="space-y-4">
-            <h1 class="text-[#3E5884]  text-2xl md:text-[44px] font-bold text-center  lg:text-start">Come posso rinnovare la mia Prénatal VIP Card?</h1>
+            <h1 class="text-[#3E5884]  text-2xl md:text-[32px] font-bold text-center  lg:text-start">Come posso rinnovare la mia Prénatal VIP Card?</h1>
             <p class="md:text-2xl text-lg leading-6 font-normal tracking-tight text-center  lg:text-start">Alla scadenza della tua Prénatal VIP Card, recati nel tuo negozio Prénatal di riferimento per effettuare il rinnovo oppure semplicemente riacquistala online cliccando sul bottone qui sotto (il sistema riattiverà i vantaggi del vip nel tuo profilo).</p>
         </div>
     </div>
-    <div class=" max-w-screen-xl mx-auto md:p-20 text-white text-xl font-semibold flex md:flex-row flex-col  items-center justify-center  md:gap-12">
-        <a href="#"><button class="bg-[#E82770] rounded-full  md:px-10 px-4 py-3 md:py-5  mt-8 md:my-6">ACQUISTA VIP CARD</button></a>
-        <a href="#"><button class="bg-[#E82770] rounded-full px-4 py-3 md:px-10 md:py-5 my-6">RINNOVA VIP CARD</button></a>
-    </div>
+    <div class=" max-w-screen-xl mx-auto md:p-20 text-white text-xl font-semibold flex md:flex-row flex-col  items-center justify-center  gap-10">
+        <a href="#"><button class="bg-[#E82770] rounded-full  md:px-8 px-4 py-3 md:py-3  mt-8 md:my-6">ACQUISTA VIP CARD</button></a>
+        <a href="#"><button class="bg-[#E82770] rounded-full px-4 py-3 md:px-10 md:py-3 my-6">RINNOVA VIP CARD</button></a>
+    </div></div>
     <Footer></Footer>
 </template>
 

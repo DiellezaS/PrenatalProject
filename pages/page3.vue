@@ -5,7 +5,7 @@
         <div class="w-1/4">
           <LaTuaCard/>
         </div>
-        <div class="md:flex flex-col gap-5 lg:w-full sm:w-2/5">
+        <div class="md:flex flex-col gap-5 lg:w-2/4 sm:w-2/5 p-4">
     <div class="bg-[#eaf1fd] md:px-6 p-4 pt-5 pb-16 rounded-3xl">
         <h1 class="text-[#E73B7A] text-xl font-bold tracking-tighter py-5  sm:text-left">La tua Fidelity Card</h1>
         <div class="flex flex-col md:flex-row lg:items-center sm:items-start gap-6">
@@ -42,7 +42,7 @@
                 
             </div>
             
-            <div class="grid grid-col gap-5 md:w-1/4 w-1/5">
+            <div class="grid grid-col gap-5 md:w-1/4 p-4">
                 <article class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-10 pt-24">
                     <img src="assets\parental_skills.png" alt="Parental Skills"
                         class="absolute inset-0 w-full   object-cover">
@@ -69,9 +69,6 @@
                     <button class="z-10 bg-[#E82770] text-white text-xl rounded-3xl py-3 w-2/3 self-center">ACCEDI
                         GRATIS</button>
                 </article>
-
-
-
 
                 <profileCompletato />
 
@@ -113,7 +110,7 @@
             </div>
         </div>
         <Vantaggi class="ml-auto" />
-        <HappyBox />
+        <HappyBox class="w-full"/>
     </div>
     <Footer></Footer>
 </template>

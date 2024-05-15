@@ -2,12 +2,12 @@
 
   <Navbar />
 
-  <div class="max-w-screen-2xl md:mx-auto flex flex-col mt-16">
+  <div class="max-w-screen-xl md:mx-auto flex flex-col mt-16">
     <div class="md:flex flex-row mx-auto gap-6">
       <div>
         <LaTuaCard />
       </div>
-      <div class="md:flex flex-col gap-6 md:w-full  m-6">
+      <div class="md:flex flex-col gap-6 md:w-full p-4">
         <div class="bg-[#F9ECED] px-6 pt-5 pb-24 rounded-3xl">
         <h1 class="text-[#E73B7A] text-2xl font-bold tracking-tighter py-5">La tua Card</h1>
         <div class=" flex md:flex-row flex-col gap-6">
@@ -25,8 +25,8 @@
         <Dati class="hidden md:flex"/>
       </div>
 
-      <div class="grid grid-col gap-7 w-1/4">
-        <div class="grid grid-col bg-[#EAF1FD] px-7 py-6 text-center rounded-2xl">
+      <div class="grid grid-col gap-7 md:w-1/4 p-4">
+        <div class="grid grid-col bg-[#EAF1FD] px-7 py-6 text-center rounded-2xl ">
           <h1 class="text-2xl font-bold  text-[#E72B6F]">Passa a VIP Club
           </h1>
           <h3 class="text-md tracking-tight mx-auto font-bold w-2/3">Scopri tutti i vantaggi che ti aspettano</h3>
@@ -85,9 +85,6 @@
       </div>
 
     </div>
-
-
-
     <Vantaggi class="ml-auto" />
     <HappyBox />
   </div>

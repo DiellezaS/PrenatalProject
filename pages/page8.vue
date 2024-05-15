@@ -39,11 +39,7 @@
                                 nisi animi reiciendis.</p>
                         </div>
                     </div>
-
-
-
-                    
-                       
+    
                     <div class="hidden md:flex items-center  rounded-3xl md:h-40 p-6 border border-[#f9eced]">
                        
                         <svg class="absolute bg-[#277766] w-24 -translate-x-8 -translate-y-14 border border-[#f9eced]" height="24" style="text-anchor: middle;">
